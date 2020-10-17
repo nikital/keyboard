@@ -1,0 +1,10 @@
+#+STARTUP: indent
+
+* Layout
+Generated at http://www.keyboard-layout-editor.com/
+
+* Plate
+Generated at http://builder.swillkb.com/
+- Switch Type: MX
+- Stabilizer: Cherry Only
+
