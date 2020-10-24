@@ -8,3 +8,16 @@ Generated at http://builder.swillkb.com/
 - Switch Type: MX
 - Stabilizer: Cherry Only
 
+* PCB
+
+** Components
+
+*** ATMEGA32U4
+
+*** MCP23018
+https://www.microchip.com/wwwproducts/en/MCP23018
+Used in ErgoDox
+
+*** MCP23017
+https://www.microchip.com/wwwproducts/en/MCP23017
+
