@@ -1079,7 +1079,7 @@ U 1 1 5F996763
 P 9950 2350
 F 0 "SW43" H 9950 2635 50  0000 C CNN
 F 1 "SW_Push" H 9950 2544 50  0000 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 9950 2550 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.50u_PCB" H 9950 2550 50  0001 C CNN
 F 3 "~" H 9950 2550 50  0001 C CNN
 	1    9950 2350
 	1    0    0    -1  
