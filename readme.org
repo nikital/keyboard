@@ -10,6 +10,9 @@ Generated at http://builder.swillkb.com/
 
 * PCB
 
+** Placement
+5.7mm 7.5mm For diodes from pin 1
+
 ** Components
 
 *** ATMEGA32U4
