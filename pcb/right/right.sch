@@ -129,8 +129,6 @@ $EndComp
 Connection ~ 6250 3300
 Wire Wire Line
 	6250 3300 6750 3300
-Wire Wire Line
-	5900 3950 6250 3950
 $Comp
 L Switch:SW_Push SW5
 U 1 1 5F957DEA
@@ -153,7 +151,6 @@ F 3 "~" H 6250 3800 50  0001 C CNN
 	1    6250 3800
 	0    -1   -1   0   
 $EndComp
-Connection ~ 6250 3950
 Wire Wire Line
 	6250 3950 6750 3950
 Connection ~ 6650 2350
@@ -1593,9 +1590,9 @@ Text Label 1300 1100 0    50   ~ 0
 D+
 Text Label 1300 1200 0    50   ~ 0
 D-
-Text Label 1950 1250 2    50   ~ 0
+Text Label 1950 1250 0    50   ~ 0
 D+
-Text Label 3150 1250 0    50   ~ 0
+Text Label 3150 1250 2    50   ~ 0
 D-
 Wire Wire Line
 	1150 900  1350 900 
@@ -2019,7 +2016,7 @@ Text Label 3350 1000 0    50   ~ 0
 SCK
 Text Label 3350 900  0    50   ~ 0
 MISO
-Text Label 4050 1000 0    50   ~ 0
+Text Label 4250 1000 2    50   ~ 0
 MOSI
 $Comp
 L power:+5V #PWR?
@@ -2057,19 +2054,19 @@ Wire Wire Line
 	4050 1100 4250 1100
 Wire Wire Line
 	3450 3900 3700 3900
-Text Label 3500 3900 0    50   ~ 0
+Text Label 3700 3900 2    50   ~ 0
 MOSI
-Text Label 3500 4000 0    50   ~ 0
+Text Label 3700 4000 2    50   ~ 0
 MISO
-Text Label 3550 3800 0    50   ~ 0
+Text Label 3700 3800 2    50   ~ 0
 SCK
 Wire Wire Line
 	3450 4000 3700 4000
 Wire Wire Line
 	3450 3800 3700 3800
-Text Label 3550 4900 0    50   ~ 0
+Text Label 3700 4900 2    50   ~ 0
 SCL
-Text Label 3550 5000 0    50   ~ 0
+Text Label 3700 5000 2    50   ~ 0
 SDA
 Wire Wire Line
 	3450 4900 3700 4900
@@ -2137,4 +2134,136 @@ Connection ~ 4000 3350
 Wire Wire Line
 	3800 3150 4000 3150
 Connection ~ 3800 3150
+Text Label 5900 1350 0    50   ~ 0
+ROW1
+Text Label 5900 2000 0    50   ~ 0
+ROW2
+Text Label 5900 2650 0    50   ~ 0
+ROW3
+Text Label 5900 3300 0    50   ~ 0
+ROW4
+Text Label 5900 3950 0    50   ~ 0
+ROW5
+Text Label 5900 4600 0    50   ~ 0
+ROW6
+Text Label 6650 4950 1    50   ~ 0
+COL1
+Text Label 7150 4950 1    50   ~ 0
+COL2
+Text Label 7650 4950 1    50   ~ 0
+COL3
+Text Label 8150 4950 1    50   ~ 0
+COL4
+Text Label 8650 4950 1    50   ~ 0
+COL5
+Text Label 9150 4950 1    50   ~ 0
+COL6
+Text Label 9650 4950 1    50   ~ 0
+COL7
+Text Label 10150 4950 1    50   ~ 0
+COL8
+Text Label 10650 4950 1    50   ~ 0
+COL9
+Text Label 3700 5100 2    50   ~ 0
+ROW1
+Text Label 3700 5200 2    50   ~ 0
+ROW2
+Text Label 3700 5300 2    50   ~ 0
+ROW3
+Text Label 3700 5400 2    50   ~ 0
+ROW4
+Text Label 3700 5500 2    50   ~ 0
+ROW5
+Text Label 3700 5600 2    50   ~ 0
+ROW6
+Wire Wire Line
+	3700 5100 3450 5100
+Wire Wire Line
+	3700 5200 3450 5200
+Wire Wire Line
+	3700 5300 3450 5300
+Wire Wire Line
+	3700 5400 3450 5400
+Wire Wire Line
+	3700 5500 3450 5500
+Wire Wire Line
+	3700 5600 3450 5600
+Text Label 3700 6100 2    50   ~ 0
+COL1
+Text Label 3700 6200 2    50   ~ 0
+COL2
+Text Label 3700 6300 2    50   ~ 0
+COL3
+Text Label 3700 6400 2    50   ~ 0
+COL4
+Text Label 3700 6500 2    50   ~ 0
+COL5
+Text Label 3700 6600 2    50   ~ 0
+COL6
+Text Label 3700 4600 2    50   ~ 0
+COL7
+Text Label 3700 4700 2    50   ~ 0
+COL8
+Text Label 3700 5900 2    50   ~ 0
+COL9
+Wire Wire Line
+	3450 6100 3700 6100
+Wire Wire Line
+	3450 6200 3700 6200
+Wire Wire Line
+	3450 6300 3700 6300
+Wire Wire Line
+	3450 6400 3700 6400
+Wire Wire Line
+	3450 6500 3700 6500
+Wire Wire Line
+	3700 6600 3450 6600
+Wire Wire Line
+	3700 4700 3450 4700
+Wire Wire Line
+	3700 5900 3450 5900
+Connection ~ 6250 3950
+Wire Wire Line
+	3700 4600 3450 4600
+Wire Wire Line
+	5900 3950 6250 3950
+$Comp
+L Device:R_Small R?
+U 1 1 60FD0E07
+P 3950 3800
+F 0 "R?" H 3891 3754 50  0000 R CNN
+F 1 "470" H 3891 3845 50  0000 R CNN
+F 2 "" H 3950 3800 50  0001 C CNN
+F 3 "~" H 3950 3800 50  0001 C CNN
+	1    3950 3800
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:LED_Small D?
+U 1 1 60FF28A8
+P 3950 4000
+F 0 "D?" V 3996 3930 50  0000 R CNN
+F 1 "LED_Small" V 3905 3930 50  0000 R CNN
+F 2 "" V 3950 4000 50  0001 C CNN
+F 3 "~" V 3950 4000 50  0001 C CNN
+	1    3950 4000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60FF4D85
+P 3950 4100
+F 0 "#PWR?" H 3950 3850 50  0001 C CNN
+F 1 "GND" H 3955 3927 50  0000 C CNN
+F 2 "" H 3950 4100 50  0001 C CNN
+F 3 "" H 3950 4100 50  0001 C CNN
+	1    3950 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 3700 3950 3700
+NoConn ~ 3450 4100
+NoConn ~ 3450 4200
+NoConn ~ 3450 4300
+NoConn ~ 3450 4400
 $EndSCHEMATC
