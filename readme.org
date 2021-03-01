@@ -24,3 +24,5 @@ Used in ErgoDox
 *** MCP23017
 https://www.microchip.com/wwwproducts/en/MCP23017
 
+*** PPTC
+MF-PSMF020X-2
