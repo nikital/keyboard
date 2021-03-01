@@ -1,0 +1,1583 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J?
+U 1 1 603A6BAC
+P 1100 1100
+F 0 "J?" H 1150 1317 50  0000 C CNN
+F 1 "To Right Part" H 1150 1226 50  0000 C CNN
+F 2 "" H 1100 1100 50  0001 C CNN
+F 3 "~" H 1100 1100 50  0001 C CNN
+	1    1100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 603A85DB
+P 1500 1100
+F 0 "#PWR?" H 1500 950 50  0001 C CNN
+F 1 "+5V" H 1515 1273 50  0000 C CNN
+F 2 "" H 1500 1100 50  0001 C CNN
+F 3 "" H 1500 1100 50  0001 C CNN
+	1    1500 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603A8AA8
+P 1500 1200
+F 0 "#PWR?" H 1500 950 50  0001 C CNN
+F 1 "GND" H 1505 1027 50  0000 C CNN
+F 2 "" H 1500 1200 50  0001 C CNN
+F 3 "" H 1500 1200 50  0001 C CNN
+	1    1500 1200
+	1    0    0    -1  
+$EndComp
+Text Label 700  1100 0    50   ~ 0
+SCL
+Text Label 700  1200 0    50   ~ 0
+SDA
+Wire Wire Line
+	700  1100 900  1100
+Wire Wire Line
+	900  1200 700  1200
+Wire Wire Line
+	1400 1100 1500 1100
+Wire Wire Line
+	1500 1200 1400 1200
+Connection ~ 7150 1300
+Wire Wire Line
+	7150 1300 6650 1300
+Connection ~ 7150 1950
+Wire Wire Line
+	7150 1950 6650 1950
+Connection ~ 7150 2600
+Wire Wire Line
+	7150 2600 6650 2600
+Connection ~ 7150 3250
+Wire Wire Line
+	7150 3250 6650 3250
+Connection ~ 7150 3900
+Wire Wire Line
+	7150 3900 6650 3900
+Wire Wire Line
+	9550 4550 10100 4550
+Connection ~ 9950 3900
+Wire Wire Line
+	9950 3900 10100 3900
+Connection ~ 9950 3250
+Wire Wire Line
+	9950 3250 10100 3250
+Connection ~ 9950 2600
+Wire Wire Line
+	9950 2600 10100 2600
+Connection ~ 9950 1950
+Wire Wire Line
+	9950 1950 10100 1950
+Connection ~ 9950 1300
+Wire Wire Line
+	9950 1300 10100 1300
+Wire Wire Line
+	7650 4300 7650 5000
+Wire Wire Line
+	7250 4300 7250 5050
+Wire Wire Line
+	6850 4300 6850 5100
+Wire Wire Line
+	8050 4950 8450 4950
+Wire Wire Line
+	8750 4550 9550 4550
+Wire Wire Line
+	8850 4300 8850 5000
+Wire Wire Line
+	9650 4300 9650 5100
+Connection ~ 6850 2350
+Wire Wire Line
+	6850 1700 6850 2350
+Wire Wire Line
+	6950 1700 6850 1700
+Connection ~ 7250 2350
+Wire Wire Line
+	7250 1700 7250 2350
+Wire Wire Line
+	7350 1700 7250 1700
+Connection ~ 7650 2350
+Wire Wire Line
+	7650 1700 7650 2350
+Wire Wire Line
+	7750 1700 7650 1700
+Connection ~ 8050 2350
+Wire Wire Line
+	8050 1700 8050 2350
+Wire Wire Line
+	8150 1700 8050 1700
+Connection ~ 9650 2350
+Wire Wire Line
+	9650 1700 9650 2350
+Wire Wire Line
+	9750 1700 9650 1700
+Connection ~ 9250 2350
+Wire Wire Line
+	9250 1700 9250 2350
+Wire Wire Line
+	9350 1700 9250 1700
+Connection ~ 8850 2350
+Wire Wire Line
+	8850 1700 8850 2350
+Wire Wire Line
+	8950 1700 8850 1700
+Connection ~ 8450 2350
+Wire Wire Line
+	8450 1700 8450 2350
+Wire Wire Line
+	8550 1700 8450 1700
+Wire Wire Line
+	9550 1300 9950 1300
+Connection ~ 9550 1300
+Wire Wire Line
+	9150 1300 9550 1300
+Connection ~ 9150 1300
+Wire Wire Line
+	8750 1300 9150 1300
+Wire Wire Line
+	7950 1300 8350 1300
+Connection ~ 7950 1300
+Wire Wire Line
+	7550 1300 7950 1300
+Connection ~ 7550 1300
+Wire Wire Line
+	7150 1300 7550 1300
+$Comp
+L Device:D_Small D?
+U 1 1 6056B368
+P 9750 1600
+F 0 "D?" V 9750 1530 50  0000 R CNN
+F 1 "D_Small" V 9705 1530 50  0001 R CNN
+F 2 "" V 9750 1600 50  0001 C CNN
+F 3 "~" V 9750 1600 50  0001 C CNN
+	1    9750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B362
+P 9850 1400
+F 0 "SW?" H 9850 1681 50  0000 C CNN
+F 1 "SW_Push" H 9850 1590 50  0000 C CNN
+F 2 "" H 9850 1400 50  0001 C CNN
+F 3 "~" H 9850 1400 50  0001 C CNN
+	1    9850 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B35C
+P 9350 1600
+F 0 "D?" V 9350 1530 50  0000 R CNN
+F 1 "D_Small" V 9305 1530 50  0001 R CNN
+F 2 "" V 9350 1600 50  0001 C CNN
+F 3 "~" V 9350 1600 50  0001 C CNN
+	1    9350 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B356
+P 9450 1400
+F 0 "SW?" H 9450 1681 50  0000 C CNN
+F 1 "SW_Push" H 9450 1590 50  0000 C CNN
+F 2 "" H 9450 1400 50  0001 C CNN
+F 3 "~" H 9450 1400 50  0001 C CNN
+	1    9450 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B350
+P 8950 1600
+F 0 "D?" V 8950 1530 50  0000 R CNN
+F 1 "D_Small" V 8905 1530 50  0001 R CNN
+F 2 "" V 8950 1600 50  0001 C CNN
+F 3 "~" V 8950 1600 50  0001 C CNN
+	1    8950 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B34A
+P 9050 1400
+F 0 "SW?" H 9050 1681 50  0000 C CNN
+F 1 "SW_Push" H 9050 1590 50  0000 C CNN
+F 2 "" H 9050 1400 50  0001 C CNN
+F 3 "~" H 9050 1400 50  0001 C CNN
+	1    9050 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B344
+P 8550 1600
+F 0 "D?" V 8550 1530 50  0000 R CNN
+F 1 "D_Small" V 8505 1530 50  0001 R CNN
+F 2 "" V 8550 1600 50  0001 C CNN
+F 3 "~" V 8550 1600 50  0001 C CNN
+	1    8550 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B33E
+P 8650 1400
+F 0 "SW?" H 8650 1681 50  0000 C CNN
+F 1 "SW_Push" H 8650 1590 50  0000 C CNN
+F 2 "" H 8650 1400 50  0001 C CNN
+F 3 "~" H 8650 1400 50  0001 C CNN
+	1    8650 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B338
+P 8150 1600
+F 0 "D?" V 8150 1530 50  0000 R CNN
+F 1 "D_Small" V 8105 1530 50  0001 R CNN
+F 2 "" V 8150 1600 50  0001 C CNN
+F 3 "~" V 8150 1600 50  0001 C CNN
+	1    8150 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B332
+P 8250 1400
+F 0 "SW?" H 8250 1681 50  0000 C CNN
+F 1 "SW_Push" H 8250 1590 50  0000 C CNN
+F 2 "" H 8250 1400 50  0001 C CNN
+F 3 "~" H 8250 1400 50  0001 C CNN
+	1    8250 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B32C
+P 7750 1600
+F 0 "D?" V 7750 1530 50  0000 R CNN
+F 1 "D_Small" V 7705 1530 50  0001 R CNN
+F 2 "" V 7750 1600 50  0001 C CNN
+F 3 "~" V 7750 1600 50  0001 C CNN
+	1    7750 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B326
+P 7850 1400
+F 0 "SW?" H 7850 1681 50  0000 C CNN
+F 1 "SW_Push" H 7850 1590 50  0000 C CNN
+F 2 "" H 7850 1400 50  0001 C CNN
+F 3 "~" H 7850 1400 50  0001 C CNN
+	1    7850 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B320
+P 7350 1600
+F 0 "D?" V 7350 1530 50  0000 R CNN
+F 1 "D_Small" V 7305 1530 50  0001 R CNN
+F 2 "" V 7350 1600 50  0001 C CNN
+F 3 "~" V 7350 1600 50  0001 C CNN
+	1    7350 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B31A
+P 7450 1400
+F 0 "SW?" H 7450 1681 50  0000 C CNN
+F 1 "SW_Push" H 7450 1590 50  0000 C CNN
+F 2 "" H 7450 1400 50  0001 C CNN
+F 3 "~" H 7450 1400 50  0001 C CNN
+	1    7450 1400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6056B314
+P 6950 1600
+F 0 "D?" V 6950 1530 50  0000 R CNN
+F 1 "D_Small" V 6905 1530 50  0001 R CNN
+F 2 "" V 6950 1600 50  0001 C CNN
+F 3 "~" V 6950 1600 50  0001 C CNN
+	1    6950 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6056B30E
+P 7050 1400
+F 0 "SW?" H 7050 1681 50  0000 C CNN
+F 1 "SW_Push" H 7050 1590 50  0000 C CNN
+F 2 "" H 7050 1400 50  0001 C CNN
+F 3 "~" H 7050 1400 50  0001 C CNN
+	1    7050 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 3000 6850 3650
+Connection ~ 6850 3000
+Wire Wire Line
+	6950 3000 6850 3000
+Wire Wire Line
+	6850 3650 6850 4300
+Connection ~ 6850 3650
+Wire Wire Line
+	6950 3650 6850 3650
+Connection ~ 6850 4300
+Wire Wire Line
+	6950 4300 6850 4300
+Wire Wire Line
+	9650 4300 9650 3650
+Connection ~ 9650 4300
+Wire Wire Line
+	9750 4300 9650 4300
+Wire Wire Line
+	9650 3650 9650 3000
+Connection ~ 9650 3650
+Wire Wire Line
+	9750 3650 9650 3650
+Wire Wire Line
+	9650 3000 9650 2350
+Connection ~ 9650 3000
+Wire Wire Line
+	9750 3000 9650 3000
+Wire Wire Line
+	9650 2350 9750 2350
+Wire Wire Line
+	6850 5100 9650 5100
+Wire Wire Line
+	6850 2350 6850 3000
+Wire Wire Line
+	6950 2350 6850 2350
+Wire Wire Line
+	9250 3000 9250 2350
+Connection ~ 9250 3000
+Wire Wire Line
+	9350 3000 9250 3000
+Wire Wire Line
+	9250 3650 9250 3000
+Connection ~ 9250 3650
+Wire Wire Line
+	9350 3650 9250 3650
+Wire Wire Line
+	9250 4300 9250 3650
+Connection ~ 9250 4300
+Wire Wire Line
+	9350 4300 9250 4300
+Wire Wire Line
+	9250 4950 9250 4300
+Connection ~ 9250 4950
+Wire Wire Line
+	9350 4950 9250 4950
+Connection ~ 7250 4300
+Wire Wire Line
+	7350 4300 7250 4300
+Wire Wire Line
+	7250 3650 7250 4300
+Connection ~ 7250 3650
+Wire Wire Line
+	7350 3650 7250 3650
+Wire Wire Line
+	7250 3000 7250 3650
+Connection ~ 7250 3000
+Wire Wire Line
+	7350 3000 7250 3000
+Wire Wire Line
+	9250 2350 9350 2350
+Wire Wire Line
+	9250 5050 9250 4950
+Wire Wire Line
+	7250 5050 9250 5050
+Wire Wire Line
+	7250 2350 7250 3000
+Wire Wire Line
+	7350 2350 7250 2350
+Wire Wire Line
+	8850 3000 8850 2350
+Connection ~ 8850 3000
+Wire Wire Line
+	8950 3000 8850 3000
+Wire Wire Line
+	8850 3650 8850 3000
+Connection ~ 8850 3650
+Wire Wire Line
+	8950 3650 8850 3650
+Wire Wire Line
+	8850 4300 8850 3650
+Connection ~ 8850 4300
+Wire Wire Line
+	8950 4300 8850 4300
+Connection ~ 7650 4300
+Wire Wire Line
+	7750 4300 7650 4300
+Wire Wire Line
+	7650 3650 7650 4300
+Connection ~ 7650 3650
+Wire Wire Line
+	7750 3650 7650 3650
+Wire Wire Line
+	7650 3000 7650 3650
+Connection ~ 7650 3000
+Wire Wire Line
+	7750 3000 7650 3000
+Wire Wire Line
+	8850 2350 8950 2350
+Wire Wire Line
+	7650 5000 8850 5000
+Wire Wire Line
+	7650 2350 7650 3000
+Wire Wire Line
+	7750 2350 7650 2350
+Wire Wire Line
+	8450 4300 8450 3650
+Connection ~ 8450 4300
+Wire Wire Line
+	8550 4300 8450 4300
+Wire Wire Line
+	8450 3650 8450 3000
+Connection ~ 8450 3650
+Wire Wire Line
+	8550 3650 8450 3650
+Wire Wire Line
+	8450 3000 8450 2350
+Connection ~ 8450 3000
+Wire Wire Line
+	8550 3000 8450 3000
+Wire Wire Line
+	8050 4300 8050 4950
+Connection ~ 8050 4300
+Wire Wire Line
+	8150 4300 8050 4300
+Wire Wire Line
+	8050 3650 8050 4300
+Connection ~ 8050 3650
+Wire Wire Line
+	8150 3650 8050 3650
+Wire Wire Line
+	8050 3000 8050 3650
+Connection ~ 8050 3000
+Wire Wire Line
+	8150 3000 8050 3000
+Wire Wire Line
+	8450 4950 8550 4950
+Connection ~ 8450 4950
+Wire Wire Line
+	8450 2350 8550 2350
+Wire Wire Line
+	8450 4950 8450 4300
+Wire Wire Line
+	8050 2350 8050 3000
+Wire Wire Line
+	8150 2350 8050 2350
+Connection ~ 9550 4550
+Wire Wire Line
+	9550 3900 9950 3900
+Connection ~ 9550 3900
+Wire Wire Line
+	9150 3900 9550 3900
+Connection ~ 9150 3900
+Wire Wire Line
+	8750 3900 9150 3900
+Wire Wire Line
+	9550 3250 9950 3250
+Connection ~ 9550 3250
+Wire Wire Line
+	9150 3250 9550 3250
+Connection ~ 9150 3250
+Wire Wire Line
+	8750 3250 9150 3250
+Wire Wire Line
+	9550 2600 9950 2600
+Connection ~ 9550 2600
+Wire Wire Line
+	9150 2600 9550 2600
+Connection ~ 9150 2600
+Wire Wire Line
+	8750 2600 9150 2600
+Wire Wire Line
+	9550 1950 9950 1950
+Connection ~ 9550 1950
+Wire Wire Line
+	9150 1950 9550 1950
+Connection ~ 9150 1950
+Wire Wire Line
+	8750 1950 9150 1950
+Wire Wire Line
+	7950 3900 8350 3900
+Connection ~ 7950 3900
+Wire Wire Line
+	7550 3900 7950 3900
+Connection ~ 7550 3900
+Wire Wire Line
+	7150 3900 7550 3900
+Wire Wire Line
+	7950 3250 8350 3250
+Connection ~ 7950 3250
+Wire Wire Line
+	7550 3250 7950 3250
+Connection ~ 7550 3250
+Wire Wire Line
+	7150 3250 7550 3250
+Wire Wire Line
+	7950 2600 8350 2600
+Connection ~ 7950 2600
+Wire Wire Line
+	7550 2600 7950 2600
+Connection ~ 7550 2600
+Wire Wire Line
+	7150 2600 7550 2600
+Wire Wire Line
+	7950 1950 8350 1950
+Connection ~ 7950 1950
+Wire Wire Line
+	7550 1950 7950 1950
+Connection ~ 7550 1950
+Wire Wire Line
+	7150 1950 7550 1950
+$Comp
+L Device:D_Small D?
+U 1 1 6048E727
+P 9750 4200
+F 0 "D?" V 9750 4130 50  0000 R CNN
+F 1 "D_Small" V 9705 4130 50  0001 R CNN
+F 2 "" V 9750 4200 50  0001 C CNN
+F 3 "~" V 9750 4200 50  0001 C CNN
+	1    9750 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E721
+P 9850 4000
+F 0 "SW?" H 9850 4281 50  0000 C CNN
+F 1 "SW_Push" H 9850 4190 50  0000 C CNN
+F 2 "" H 9850 4000 50  0001 C CNN
+F 3 "~" H 9850 4000 50  0001 C CNN
+	1    9850 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E71B
+P 9750 3550
+F 0 "D?" V 9750 3480 50  0000 R CNN
+F 1 "D_Small" V 9705 3480 50  0001 R CNN
+F 2 "" V 9750 3550 50  0001 C CNN
+F 3 "~" V 9750 3550 50  0001 C CNN
+	1    9750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E715
+P 9850 3350
+F 0 "SW?" H 9850 3631 50  0000 C CNN
+F 1 "SW_Push" H 9850 3540 50  0000 C CNN
+F 2 "" H 9850 3350 50  0001 C CNN
+F 3 "~" H 9850 3350 50  0001 C CNN
+	1    9850 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E70F
+P 9750 2900
+F 0 "D?" V 9750 2830 50  0000 R CNN
+F 1 "D_Small" V 9705 2830 50  0001 R CNN
+F 2 "" V 9750 2900 50  0001 C CNN
+F 3 "~" V 9750 2900 50  0001 C CNN
+	1    9750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E709
+P 9850 2700
+F 0 "SW?" H 9850 2981 50  0000 C CNN
+F 1 "SW_Push" H 9850 2890 50  0000 C CNN
+F 2 "" H 9850 2700 50  0001 C CNN
+F 3 "~" H 9850 2700 50  0001 C CNN
+	1    9850 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E703
+P 9750 2250
+F 0 "D?" V 9750 2180 50  0000 R CNN
+F 1 "D_Small" V 9705 2180 50  0001 R CNN
+F 2 "" V 9750 2250 50  0001 C CNN
+F 3 "~" V 9750 2250 50  0001 C CNN
+	1    9750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6FD
+P 9850 2050
+F 0 "SW?" H 9850 2331 50  0000 C CNN
+F 1 "SW_Push" H 9850 2240 50  0000 C CNN
+F 2 "" H 9850 2050 50  0001 C CNN
+F 3 "~" H 9850 2050 50  0001 C CNN
+	1    9850 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6F7
+P 9350 4850
+F 0 "D?" V 9350 4780 50  0000 R CNN
+F 1 "D_Small" V 9305 4780 50  0001 R CNN
+F 2 "" V 9350 4850 50  0001 C CNN
+F 3 "~" V 9350 4850 50  0001 C CNN
+	1    9350 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6F1
+P 9450 4650
+F 0 "SW?" H 9450 4931 50  0000 C CNN
+F 1 "SW_Push" H 9450 4840 50  0000 C CNN
+F 2 "" H 9450 4650 50  0001 C CNN
+F 3 "~" H 9450 4650 50  0001 C CNN
+	1    9450 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6EB
+P 9350 4200
+F 0 "D?" V 9350 4130 50  0000 R CNN
+F 1 "D_Small" V 9305 4130 50  0001 R CNN
+F 2 "" V 9350 4200 50  0001 C CNN
+F 3 "~" V 9350 4200 50  0001 C CNN
+	1    9350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6E5
+P 9450 4000
+F 0 "SW?" H 9450 4281 50  0000 C CNN
+F 1 "SW_Push" H 9450 4190 50  0000 C CNN
+F 2 "" H 9450 4000 50  0001 C CNN
+F 3 "~" H 9450 4000 50  0001 C CNN
+	1    9450 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6DF
+P 9350 3550
+F 0 "D?" V 9350 3480 50  0000 R CNN
+F 1 "D_Small" V 9305 3480 50  0001 R CNN
+F 2 "" V 9350 3550 50  0001 C CNN
+F 3 "~" V 9350 3550 50  0001 C CNN
+	1    9350 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6D9
+P 9450 3350
+F 0 "SW?" H 9450 3631 50  0000 C CNN
+F 1 "SW_Push" H 9450 3540 50  0000 C CNN
+F 2 "" H 9450 3350 50  0001 C CNN
+F 3 "~" H 9450 3350 50  0001 C CNN
+	1    9450 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6D3
+P 9350 2900
+F 0 "D?" V 9350 2830 50  0000 R CNN
+F 1 "D_Small" V 9305 2830 50  0001 R CNN
+F 2 "" V 9350 2900 50  0001 C CNN
+F 3 "~" V 9350 2900 50  0001 C CNN
+	1    9350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6CD
+P 9450 2700
+F 0 "SW?" H 9450 2981 50  0000 C CNN
+F 1 "SW_Push" H 9450 2890 50  0000 C CNN
+F 2 "" H 9450 2700 50  0001 C CNN
+F 3 "~" H 9450 2700 50  0001 C CNN
+	1    9450 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6C7
+P 9350 2250
+F 0 "D?" V 9350 2180 50  0000 R CNN
+F 1 "D_Small" V 9305 2180 50  0001 R CNN
+F 2 "" V 9350 2250 50  0001 C CNN
+F 3 "~" V 9350 2250 50  0001 C CNN
+	1    9350 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6C1
+P 9450 2050
+F 0 "SW?" H 9450 2331 50  0000 C CNN
+F 1 "SW_Push" H 9450 2240 50  0000 C CNN
+F 2 "" H 9450 2050 50  0001 C CNN
+F 3 "~" H 9450 2050 50  0001 C CNN
+	1    9450 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6AF
+P 8950 4200
+F 0 "D?" V 8950 4130 50  0000 R CNN
+F 1 "D_Small" V 8905 4130 50  0001 R CNN
+F 2 "" V 8950 4200 50  0001 C CNN
+F 3 "~" V 8950 4200 50  0001 C CNN
+	1    8950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E6A9
+P 9050 4000
+F 0 "SW?" H 9050 4281 50  0000 C CNN
+F 1 "SW_Push" H 9050 4190 50  0000 C CNN
+F 2 "" H 9050 4000 50  0001 C CNN
+F 3 "~" H 9050 4000 50  0001 C CNN
+	1    9050 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E6A3
+P 8950 3550
+F 0 "D?" V 8950 3480 50  0000 R CNN
+F 1 "D_Small" V 8905 3480 50  0001 R CNN
+F 2 "" V 8950 3550 50  0001 C CNN
+F 3 "~" V 8950 3550 50  0001 C CNN
+	1    8950 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E69D
+P 9050 3350
+F 0 "SW?" H 9050 3631 50  0000 C CNN
+F 1 "SW_Push" H 9050 3540 50  0000 C CNN
+F 2 "" H 9050 3350 50  0001 C CNN
+F 3 "~" H 9050 3350 50  0001 C CNN
+	1    9050 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E697
+P 8950 2900
+F 0 "D?" V 8950 2830 50  0000 R CNN
+F 1 "D_Small" V 8905 2830 50  0001 R CNN
+F 2 "" V 8950 2900 50  0001 C CNN
+F 3 "~" V 8950 2900 50  0001 C CNN
+	1    8950 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E691
+P 9050 2700
+F 0 "SW?" H 9050 2981 50  0000 C CNN
+F 1 "SW_Push" H 9050 2890 50  0000 C CNN
+F 2 "" H 9050 2700 50  0001 C CNN
+F 3 "~" H 9050 2700 50  0001 C CNN
+	1    9050 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E68B
+P 8950 2250
+F 0 "D?" V 8950 2180 50  0000 R CNN
+F 1 "D_Small" V 8905 2180 50  0001 R CNN
+F 2 "" V 8950 2250 50  0001 C CNN
+F 3 "~" V 8950 2250 50  0001 C CNN
+	1    8950 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E685
+P 9050 2050
+F 0 "SW?" H 9050 2331 50  0000 C CNN
+F 1 "SW_Push" H 9050 2240 50  0000 C CNN
+F 2 "" H 9050 2050 50  0001 C CNN
+F 3 "~" H 9050 2050 50  0001 C CNN
+	1    9050 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E67F
+P 8550 4850
+F 0 "D?" V 8550 4780 50  0000 R CNN
+F 1 "D_Small" V 8505 4780 50  0001 R CNN
+F 2 "" V 8550 4850 50  0001 C CNN
+F 3 "~" V 8550 4850 50  0001 C CNN
+	1    8550 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E679
+P 8650 4650
+F 0 "SW?" H 8650 4931 50  0000 C CNN
+F 1 "SW_Push" H 8650 4840 50  0000 C CNN
+F 2 "" H 8650 4650 50  0001 C CNN
+F 3 "~" H 8650 4650 50  0001 C CNN
+	1    8650 4650
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E673
+P 8550 4200
+F 0 "D?" V 8550 4130 50  0000 R CNN
+F 1 "D_Small" V 8505 4130 50  0001 R CNN
+F 2 "" V 8550 4200 50  0001 C CNN
+F 3 "~" V 8550 4200 50  0001 C CNN
+	1    8550 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E66D
+P 8650 4000
+F 0 "SW?" H 8650 4281 50  0000 C CNN
+F 1 "SW_Push" H 8650 4190 50  0000 C CNN
+F 2 "" H 8650 4000 50  0001 C CNN
+F 3 "~" H 8650 4000 50  0001 C CNN
+	1    8650 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E667
+P 8550 3550
+F 0 "D?" V 8550 3480 50  0000 R CNN
+F 1 "D_Small" V 8505 3480 50  0001 R CNN
+F 2 "" V 8550 3550 50  0001 C CNN
+F 3 "~" V 8550 3550 50  0001 C CNN
+	1    8550 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E661
+P 8650 3350
+F 0 "SW?" H 8650 3631 50  0000 C CNN
+F 1 "SW_Push" H 8650 3540 50  0000 C CNN
+F 2 "" H 8650 3350 50  0001 C CNN
+F 3 "~" H 8650 3350 50  0001 C CNN
+	1    8650 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E65B
+P 8550 2900
+F 0 "D?" V 8550 2830 50  0000 R CNN
+F 1 "D_Small" V 8505 2830 50  0001 R CNN
+F 2 "" V 8550 2900 50  0001 C CNN
+F 3 "~" V 8550 2900 50  0001 C CNN
+	1    8550 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E655
+P 8650 2700
+F 0 "SW?" H 8650 2981 50  0000 C CNN
+F 1 "SW_Push" H 8650 2890 50  0000 C CNN
+F 2 "" H 8650 2700 50  0001 C CNN
+F 3 "~" H 8650 2700 50  0001 C CNN
+	1    8650 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6048E64F
+P 8550 2250
+F 0 "D?" V 8550 2180 50  0000 R CNN
+F 1 "D_Small" V 8505 2180 50  0001 R CNN
+F 2 "" V 8550 2250 50  0001 C CNN
+F 3 "~" V 8550 2250 50  0001 C CNN
+	1    8550 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6048E649
+P 8650 2050
+F 0 "SW?" H 8650 2331 50  0000 C CNN
+F 1 "SW_Push" H 8650 2240 50  0000 C CNN
+F 2 "" H 8650 2050 50  0001 C CNN
+F 3 "~" H 8650 2050 50  0001 C CNN
+	1    8650 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EBCF
+P 8150 4200
+F 0 "D?" V 8150 4130 50  0000 R CNN
+F 1 "D_Small" V 8105 4130 50  0001 R CNN
+F 2 "" V 8150 4200 50  0001 C CNN
+F 3 "~" V 8150 4200 50  0001 C CNN
+	1    8150 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EBC9
+P 8250 4000
+F 0 "SW?" H 8250 4281 50  0000 C CNN
+F 1 "SW_Push" H 8250 4190 50  0000 C CNN
+F 2 "" H 8250 4000 50  0001 C CNN
+F 3 "~" H 8250 4000 50  0001 C CNN
+	1    8250 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EBC3
+P 8150 3550
+F 0 "D?" V 8150 3480 50  0000 R CNN
+F 1 "D_Small" V 8105 3480 50  0001 R CNN
+F 2 "" V 8150 3550 50  0001 C CNN
+F 3 "~" V 8150 3550 50  0001 C CNN
+	1    8150 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EBBD
+P 8250 3350
+F 0 "SW?" H 8250 3631 50  0000 C CNN
+F 1 "SW_Push" H 8250 3540 50  0000 C CNN
+F 2 "" H 8250 3350 50  0001 C CNN
+F 3 "~" H 8250 3350 50  0001 C CNN
+	1    8250 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EBB7
+P 8150 2900
+F 0 "D?" V 8150 2830 50  0000 R CNN
+F 1 "D_Small" V 8105 2830 50  0001 R CNN
+F 2 "" V 8150 2900 50  0001 C CNN
+F 3 "~" V 8150 2900 50  0001 C CNN
+	1    8150 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EBB1
+P 8250 2700
+F 0 "SW?" H 8250 2981 50  0000 C CNN
+F 1 "SW_Push" H 8250 2890 50  0000 C CNN
+F 2 "" H 8250 2700 50  0001 C CNN
+F 3 "~" H 8250 2700 50  0001 C CNN
+	1    8250 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EBAB
+P 8150 2250
+F 0 "D?" V 8150 2180 50  0000 R CNN
+F 1 "D_Small" V 8105 2180 50  0001 R CNN
+F 2 "" V 8150 2250 50  0001 C CNN
+F 3 "~" V 8150 2250 50  0001 C CNN
+	1    8150 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EBA5
+P 8250 2050
+F 0 "SW?" H 8250 2331 50  0000 C CNN
+F 1 "SW_Push" H 8250 2240 50  0000 C CNN
+F 2 "" H 8250 2050 50  0001 C CNN
+F 3 "~" H 8250 2050 50  0001 C CNN
+	1    8250 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EB93
+P 7750 4200
+F 0 "D?" V 7750 4130 50  0000 R CNN
+F 1 "D_Small" V 7705 4130 50  0001 R CNN
+F 2 "" V 7750 4200 50  0001 C CNN
+F 3 "~" V 7750 4200 50  0001 C CNN
+	1    7750 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EB8D
+P 7850 4000
+F 0 "SW?" H 7850 4281 50  0000 C CNN
+F 1 "SW_Push" H 7850 4190 50  0000 C CNN
+F 2 "" H 7850 4000 50  0001 C CNN
+F 3 "~" H 7850 4000 50  0001 C CNN
+	1    7850 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EB87
+P 7750 3550
+F 0 "D?" V 7750 3480 50  0000 R CNN
+F 1 "D_Small" V 7705 3480 50  0001 R CNN
+F 2 "" V 7750 3550 50  0001 C CNN
+F 3 "~" V 7750 3550 50  0001 C CNN
+	1    7750 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EB81
+P 7850 3350
+F 0 "SW?" H 7850 3631 50  0000 C CNN
+F 1 "SW_Push" H 7850 3540 50  0000 C CNN
+F 2 "" H 7850 3350 50  0001 C CNN
+F 3 "~" H 7850 3350 50  0001 C CNN
+	1    7850 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EB7B
+P 7750 2900
+F 0 "D?" V 7750 2830 50  0000 R CNN
+F 1 "D_Small" V 7705 2830 50  0001 R CNN
+F 2 "" V 7750 2900 50  0001 C CNN
+F 3 "~" V 7750 2900 50  0001 C CNN
+	1    7750 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EB75
+P 7850 2700
+F 0 "SW?" H 7850 2981 50  0000 C CNN
+F 1 "SW_Push" H 7850 2890 50  0000 C CNN
+F 2 "" H 7850 2700 50  0001 C CNN
+F 3 "~" H 7850 2700 50  0001 C CNN
+	1    7850 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6046EB6F
+P 7750 2250
+F 0 "D?" V 7750 2180 50  0000 R CNN
+F 1 "D_Small" V 7705 2180 50  0001 R CNN
+F 2 "" V 7750 2250 50  0001 C CNN
+F 3 "~" V 7750 2250 50  0001 C CNN
+	1    7750 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6046EB69
+P 7850 2050
+F 0 "SW?" H 7850 2331 50  0000 C CNN
+F 1 "SW_Push" H 7850 2240 50  0000 C CNN
+F 2 "" H 7850 2050 50  0001 C CNN
+F 3 "~" H 7850 2050 50  0001 C CNN
+	1    7850 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6045603F
+P 7350 4200
+F 0 "D?" V 7350 4130 50  0000 R CNN
+F 1 "D_Small" V 7305 4130 50  0001 R CNN
+F 2 "" V 7350 4200 50  0001 C CNN
+F 3 "~" V 7350 4200 50  0001 C CNN
+	1    7350 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 60456039
+P 7450 4000
+F 0 "SW?" H 7450 4281 50  0000 C CNN
+F 1 "SW_Push" H 7450 4190 50  0000 C CNN
+F 2 "" H 7450 4000 50  0001 C CNN
+F 3 "~" H 7450 4000 50  0001 C CNN
+	1    7450 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60456033
+P 7350 3550
+F 0 "D?" V 7350 3480 50  0000 R CNN
+F 1 "D_Small" V 7305 3480 50  0001 R CNN
+F 2 "" V 7350 3550 50  0001 C CNN
+F 3 "~" V 7350 3550 50  0001 C CNN
+	1    7350 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6045602D
+P 7450 3350
+F 0 "SW?" H 7450 3631 50  0000 C CNN
+F 1 "SW_Push" H 7450 3540 50  0000 C CNN
+F 2 "" H 7450 3350 50  0001 C CNN
+F 3 "~" H 7450 3350 50  0001 C CNN
+	1    7450 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60456027
+P 7350 2900
+F 0 "D?" V 7350 2830 50  0000 R CNN
+F 1 "D_Small" V 7305 2830 50  0001 R CNN
+F 2 "" V 7350 2900 50  0001 C CNN
+F 3 "~" V 7350 2900 50  0001 C CNN
+	1    7350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 60456021
+P 7450 2700
+F 0 "SW?" H 7450 2981 50  0000 C CNN
+F 1 "SW_Push" H 7450 2890 50  0000 C CNN
+F 2 "" H 7450 2700 50  0001 C CNN
+F 3 "~" H 7450 2700 50  0001 C CNN
+	1    7450 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6045601B
+P 7350 2250
+F 0 "D?" V 7350 2180 50  0000 R CNN
+F 1 "D_Small" V 7305 2180 50  0001 R CNN
+F 2 "" V 7350 2250 50  0001 C CNN
+F 3 "~" V 7350 2250 50  0001 C CNN
+	1    7350 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 60456015
+P 7450 2050
+F 0 "SW?" H 7450 2331 50  0000 C CNN
+F 1 "SW_Push" H 7450 2240 50  0000 C CNN
+F 2 "" H 7450 2050 50  0001 C CNN
+F 3 "~" H 7450 2050 50  0001 C CNN
+	1    7450 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6044BD39
+P 6950 4200
+F 0 "D?" V 6950 4130 50  0000 R CNN
+F 1 "D_Small" V 6905 4130 50  0001 R CNN
+F 2 "" V 6950 4200 50  0001 C CNN
+F 3 "~" V 6950 4200 50  0001 C CNN
+	1    6950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6044BD33
+P 7050 4000
+F 0 "SW?" H 7050 4281 50  0000 C CNN
+F 1 "SW_Push" H 7050 4190 50  0000 C CNN
+F 2 "" H 7050 4000 50  0001 C CNN
+F 3 "~" H 7050 4000 50  0001 C CNN
+	1    7050 4000
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 6044BD2D
+P 6950 3550
+F 0 "D?" V 6950 3480 50  0000 R CNN
+F 1 "D_Small" V 6905 3480 50  0001 R CNN
+F 2 "" V 6950 3550 50  0001 C CNN
+F 3 "~" V 6950 3550 50  0001 C CNN
+	1    6950 3550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6044BD27
+P 7050 3350
+F 0 "SW?" H 7050 3631 50  0000 C CNN
+F 1 "SW_Push" H 7050 3540 50  0000 C CNN
+F 2 "" H 7050 3350 50  0001 C CNN
+F 3 "~" H 7050 3350 50  0001 C CNN
+	1    7050 3350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 60448525
+P 6950 2900
+F 0 "D?" V 6950 2830 50  0000 R CNN
+F 1 "D_Small" V 6905 2830 50  0001 R CNN
+F 2 "" V 6950 2900 50  0001 C CNN
+F 3 "~" V 6950 2900 50  0001 C CNN
+	1    6950 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 6044851F
+P 7050 2700
+F 0 "SW?" H 7050 2981 50  0000 C CNN
+F 1 "SW_Push" H 7050 2890 50  0000 C CNN
+F 2 "" H 7050 2700 50  0001 C CNN
+F 3 "~" H 7050 2700 50  0001 C CNN
+	1    7050 2700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D?
+U 1 1 604353F2
+P 6950 2250
+F 0 "D?" V 6950 2180 50  0000 R CNN
+F 1 "D_Small" V 6905 2180 50  0001 R CNN
+F 2 "" V 6950 2250 50  0001 C CNN
+F 3 "~" V 6950 2250 50  0001 C CNN
+	1    6950 2250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Switch:SW_Push_45deg SW?
+U 1 1 60432369
+P 7050 2050
+F 0 "SW?" H 7050 2331 50  0000 C CNN
+F 1 "SW_Push" H 7050 2240 50  0000 C CNN
+F 2 "" H 7050 2050 50  0001 C CNN
+F 3 "~" H 7050 2050 50  0001 C CNN
+	1    7050 2050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60621C69
+P 6650 1200
+F 0 "R?" H 6709 1246 50  0000 L CNN
+F 1 "10K" H 6709 1155 50  0000 L CNN
+F 2 "" H 6650 1200 50  0001 C CNN
+F 3 "~" H 6650 1200 50  0001 C CNN
+	1    6650 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60620C11
+P 6650 1850
+F 0 "R?" H 6709 1896 50  0000 L CNN
+F 1 "10K" H 6709 1805 50  0000 L CNN
+F 2 "" H 6650 1850 50  0001 C CNN
+F 3 "~" H 6650 1850 50  0001 C CNN
+	1    6650 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6061FB8F
+P 6650 2500
+F 0 "R?" H 6709 2546 50  0000 L CNN
+F 1 "10K" H 6709 2455 50  0000 L CNN
+F 2 "" H 6650 2500 50  0001 C CNN
+F 3 "~" H 6650 2500 50  0001 C CNN
+	1    6650 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6061EA98
+P 6650 3150
+F 0 "R?" H 6709 3196 50  0000 L CNN
+F 1 "10K" H 6709 3105 50  0000 L CNN
+F 2 "" H 6650 3150 50  0001 C CNN
+F 3 "~" H 6650 3150 50  0001 C CNN
+	1    6650 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6061D6AB
+P 6650 3800
+F 0 "R?" H 6709 3846 50  0000 L CNN
+F 1 "10K" H 6709 3755 50  0000 L CNN
+F 2 "" H 6650 3800 50  0001 C CNN
+F 3 "~" H 6650 3800 50  0001 C CNN
+	1    6650 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60618A46
+P 10100 4450
+F 0 "R?" H 10159 4496 50  0000 L CNN
+F 1 "10K" H 10159 4405 50  0000 L CNN
+F 2 "" H 10100 4450 50  0001 C CNN
+F 3 "~" H 10100 4450 50  0001 C CNN
+	1    10100 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60617B0F
+P 10100 3800
+F 0 "R?" H 10159 3846 50  0000 L CNN
+F 1 "10K" H 10159 3755 50  0000 L CNN
+F 2 "" H 10100 3800 50  0001 C CNN
+F 3 "~" H 10100 3800 50  0001 C CNN
+	1    10100 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60616969
+P 10100 3150
+F 0 "R?" H 10159 3196 50  0000 L CNN
+F 1 "10K" H 10159 3105 50  0000 L CNN
+F 2 "" H 10100 3150 50  0001 C CNN
+F 3 "~" H 10100 3150 50  0001 C CNN
+	1    10100 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60615949
+P 10100 2500
+F 0 "R?" H 10159 2546 50  0000 L CNN
+F 1 "10K" H 10159 2455 50  0000 L CNN
+F 2 "" H 10100 2500 50  0001 C CNN
+F 3 "~" H 10100 2500 50  0001 C CNN
+	1    10100 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6061488C
+P 10100 1850
+F 0 "R?" H 10159 1896 50  0000 L CNN
+F 1 "10K" H 10159 1805 50  0000 L CNN
+F 2 "" H 10100 1850 50  0001 C CNN
+F 3 "~" H 10100 1850 50  0001 C CNN
+	1    10100 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 60612D92
+P 10100 1200
+F 0 "R?" H 10159 1246 50  0000 L CNN
+F 1 "10K" H 10159 1155 50  0000 L CNN
+F 2 "" H 10100 1200 50  0001 C CNN
+F 3 "~" H 10100 1200 50  0001 C CNN
+	1    10100 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60691E6B
+P 10100 1100
+F 0 "#PWR?" H 10100 950 50  0001 C CNN
+F 1 "+5V" H 10115 1273 50  0000 C CNN
+F 2 "" H 10100 1100 50  0001 C CNN
+F 3 "" H 10100 1100 50  0001 C CNN
+	1    10100 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 60692F38
+P 10100 1750
+F 0 "#PWR?" H 10100 1600 50  0001 C CNN
+F 1 "+5V" H 10115 1923 50  0000 C CNN
+F 2 "" H 10100 1750 50  0001 C CNN
+F 3 "" H 10100 1750 50  0001 C CNN
+	1    10100 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6069A919
+P 10100 2400
+F 0 "#PWR?" H 10100 2250 50  0001 C CNN
+F 1 "+5V" H 10115 2573 50  0000 C CNN
+F 2 "" H 10100 2400 50  0001 C CNN
+F 3 "" H 10100 2400 50  0001 C CNN
+	1    10100 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6069BA8B
+P 10100 3050
+F 0 "#PWR?" H 10100 2900 50  0001 C CNN
+F 1 "+5V" H 10115 3223 50  0000 C CNN
+F 2 "" H 10100 3050 50  0001 C CNN
+F 3 "" H 10100 3050 50  0001 C CNN
+	1    10100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6069CBFE
+P 10100 3700
+F 0 "#PWR?" H 10100 3550 50  0001 C CNN
+F 1 "+5V" H 10115 3873 50  0000 C CNN
+F 2 "" H 10100 3700 50  0001 C CNN
+F 3 "" H 10100 3700 50  0001 C CNN
+	1    10100 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6069DCE9
+P 10100 4350
+F 0 "#PWR?" H 10100 4200 50  0001 C CNN
+F 1 "+5V" H 10115 4523 50  0000 C CNN
+F 2 "" H 10100 4350 50  0001 C CNN
+F 3 "" H 10100 4350 50  0001 C CNN
+	1    10100 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6069EF80
+P 6650 3700
+F 0 "#PWR?" H 6650 3550 50  0001 C CNN
+F 1 "+5V" H 6665 3873 50  0000 C CNN
+F 2 "" H 6650 3700 50  0001 C CNN
+F 3 "" H 6650 3700 50  0001 C CNN
+	1    6650 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606A0214
+P 6650 3050
+F 0 "#PWR?" H 6650 2900 50  0001 C CNN
+F 1 "+5V" H 6665 3223 50  0000 C CNN
+F 2 "" H 6650 3050 50  0001 C CNN
+F 3 "" H 6650 3050 50  0001 C CNN
+	1    6650 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606A1342
+P 6650 2400
+F 0 "#PWR?" H 6650 2250 50  0001 C CNN
+F 1 "+5V" H 6665 2573 50  0000 C CNN
+F 2 "" H 6650 2400 50  0001 C CNN
+F 3 "" H 6650 2400 50  0001 C CNN
+	1    6650 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606A250B
+P 6650 1750
+F 0 "#PWR?" H 6650 1600 50  0001 C CNN
+F 1 "+5V" H 6665 1923 50  0000 C CNN
+F 2 "" H 6650 1750 50  0001 C CNN
+F 3 "" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 606A3720
+P 6650 1100
+F 0 "#PWR?" H 6650 950 50  0001 C CNN
+F 1 "+5V" H 6665 1273 50  0000 C CNN
+F 2 "" H 6650 1100 50  0001 C CNN
+F 3 "" H 6650 1100 50  0001 C CNN
+	1    6650 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 1300 10600 1300
+Connection ~ 10100 1300
+Wire Wire Line
+	10100 1950 10600 1950
+Connection ~ 10100 1950
+Wire Wire Line
+	10100 2600 10600 2600
+Connection ~ 10100 2600
+Wire Wire Line
+	10100 3250 10600 3250
+Connection ~ 10100 3250
+Wire Wire Line
+	10100 3900 10600 3900
+Connection ~ 10100 3900
+Wire Wire Line
+	10100 4550 10600 4550
+Connection ~ 10100 4550
+Wire Wire Line
+	6150 3900 6650 3900
+Connection ~ 6650 3900
+Connection ~ 6650 3250
+Wire Wire Line
+	6650 2600 6150 2600
+Connection ~ 6650 2600
+Wire Wire Line
+	6150 3250 6650 3250
+Wire Wire Line
+	6150 1950 6650 1950
+Connection ~ 6650 1950
+Wire Wire Line
+	6650 1300 6150 1300
+Connection ~ 6650 1300
+$EndSCHEMATC
