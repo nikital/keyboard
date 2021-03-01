@@ -15,14 +15,11 @@ Generated at http://builder.swillkb.com/
 
 ** Components
 
-*** ATMEGA32U4
-
-*** MCP23018
-https://www.microchip.com/wwwproducts/en/MCP23018
-Used in ErgoDox
-
-*** MCP23017
-https://www.microchip.com/wwwproducts/en/MCP23017
+*** MCU
+ATMEGA32U4-AU
 
 *** PPTC
 MF-PSMF020X-2
+
+*** I/O expander
+MCP23018-E/SO
