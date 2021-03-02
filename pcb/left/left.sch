@@ -1580,4 +1580,179 @@ Connection ~ 6650 1950
 Wire Wire Line
 	6650 1300 6150 1300
 Connection ~ 6650 1300
+$Comp
+L symbols:MCP23018_SO U?
+U 1 1 603DE333
+P 2350 4150
+F 0 "U?" H 2300 3800 50  0000 C CNN
+F 1 "MCP23018_SO" H 2200 3650 50  0000 C CNN
+F 2 "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm" H 2550 3150 50  0001 L CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf" H 2550 3050 50  0001 L CNN
+	1    2350 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603E8C90
+P 2350 5250
+F 0 "#PWR?" H 2350 5000 50  0001 C CNN
+F 1 "GND" H 2355 5077 50  0000 C CNN
+F 2 "" H 2350 5250 50  0001 C CNN
+F 3 "" H 2350 5250 50  0001 C CNN
+	1    2350 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 603F7DD2
+P 1650 4950
+F 0 "#PWR?" H 1650 4700 50  0001 C CNN
+F 1 "GND" H 1655 4777 50  0000 C CNN
+F 2 "" H 1650 4950 50  0001 C CNN
+F 3 "" H 1650 4950 50  0001 C CNN
+	1    1650 4950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1650 3850
+NoConn ~ 1650 3950
+$Comp
+L power:+5V #PWR?
+U 1 1 6040C295
+P 1150 4300
+F 0 "#PWR?" H 1150 4150 50  0001 C CNN
+F 1 "+5V" H 1165 4473 50  0000 C CNN
+F 2 "" H 1150 4300 50  0001 C CNN
+F 3 "" H 1150 4300 50  0001 C CNN
+	1    1150 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6040E182
+P 1400 4300
+F 0 "R?" V 1204 4300 50  0000 C CNN
+F 1 "10K" V 1295 4300 50  0000 C CNN
+F 2 "" H 1400 4300 50  0001 C CNN
+F 3 "~" H 1400 4300 50  0001 C CNN
+	1    1400 4300
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1150 4300 1300 4300
+Wire Wire Line
+	1500 4300 1650 4300
+$Comp
+L power:+5V #PWR?
+U 1 1 60422DB8
+P 2350 3050
+F 0 "#PWR?" H 2350 2900 50  0001 C CNN
+F 1 "+5V" H 2365 3223 50  0000 C CNN
+F 2 "" H 2350 3050 50  0001 C CNN
+F 3 "" H 2350 3050 50  0001 C CNN
+	1    2350 3050
+	1    0    0    -1  
+$EndComp
+Text Label 1450 3350 0    50   ~ 0
+SCL
+Text Label 1450 3450 0    50   ~ 0
+SDA
+Wire Wire Line
+	1450 3350 1650 3350
+Wire Wire Line
+	1450 3450 1650 3450
+Text Label 6150 1300 0    50   ~ 0
+COL0
+Text Label 6150 1950 0    50   ~ 0
+COL1
+Text Label 6150 2600 0    50   ~ 0
+COL2
+Text Label 6150 3250 0    50   ~ 0
+COL3
+Text Label 6150 3900 0    50   ~ 0
+COL4
+Text Label 10600 4550 2    50   ~ 0
+COL5
+Text Label 10600 3900 2    50   ~ 0
+COL6
+Text Label 10600 3250 2    50   ~ 0
+COL7
+Text Label 10600 2600 2    50   ~ 0
+COL8
+Text Label 10600 1950 2    50   ~ 0
+COL9
+Text Label 10600 1300 2    50   ~ 0
+COL10
+Text Label 6850 4800 1    50   ~ 0
+ROW0
+Text Label 7250 4800 1    50   ~ 0
+ROW1
+Text Label 7650 4800 1    50   ~ 0
+ROW2
+Text Label 8050 4800 1    50   ~ 0
+ROW3
+Text Label 3050 4250 0    50   ~ 0
+COL0
+Text Label 3050 4350 0    50   ~ 0
+COL1
+Text Label 3050 4450 0    50   ~ 0
+COL2
+Text Label 3050 4550 0    50   ~ 0
+COL3
+Text Label 3050 4650 0    50   ~ 0
+COL4
+Text Label 3050 4750 0    50   ~ 0
+COL5
+Text Label 3050 4850 0    50   ~ 0
+COL6
+Text Label 3050 4950 0    50   ~ 0
+COL7
+Text Label 3050 3350 0    50   ~ 0
+COL8
+Text Label 3050 3450 0    50   ~ 0
+COL9
+Text Label 3050 3550 0    50   ~ 0
+COL10
+Text Label 3050 3650 0    50   ~ 0
+ROW0
+Text Label 3050 3750 0    50   ~ 0
+ROW1
+Text Label 3050 3850 0    50   ~ 0
+ROW2
+Text Label 3050 3950 0    50   ~ 0
+ROW3
+Wire Wire Line
+	3050 4050 3600 4050
+$Comp
+L Device:LED_Small D?
+U 1 1 604A9BDF
+P 3600 3950
+F 0 "D?" V 3646 3880 50  0000 R CNN
+F 1 "LED_Small" V 3555 3880 50  0000 R CNN
+F 2 "" V 3600 3950 50  0001 C CNN
+F 3 "~" V 3600 3950 50  0001 C CNN
+	1    3600 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 604AA823
+P 3600 3750
+F 0 "R?" H 3659 3796 50  0000 L CNN
+F 1 "470" H 3659 3705 50  0000 L CNN
+F 2 "" H 3600 3750 50  0001 C CNN
+F 3 "~" H 3600 3750 50  0001 C CNN
+	1    3600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 604AB14C
+P 3600 3650
+F 0 "#PWR?" H 3600 3500 50  0001 C CNN
+F 1 "+5V" H 3615 3823 50  0000 C CNN
+F 2 "" H 3600 3650 50  0001 C CNN
+F 3 "" H 3600 3650 50  0001 C CNN
+	1    3600 3650
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
