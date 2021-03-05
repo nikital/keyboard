@@ -1514,7 +1514,7 @@ L Device:Polyfuse_Small F1
 U 1 1 603C544E
 P 1350 900
 F 0 "F1" V 1300 750 50  0000 C CNN
-F 1 "Polyfuse_Small" V 1450 900 50  0000 C CNN
+F 1 "500mA" V 1450 900 50  0000 C CNN
 F 2 "" H 1400 700 50  0001 L CNN
 F 3 "~" H 1350 900 50  0001 C CNN
 	1    1350 900 
@@ -2444,10 +2444,6 @@ F 3 "~" H 4000 5000 50  0001 C CNN
 	1    4000 5000
 	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	3450 4900 3900 4900
-Wire Wire Line
-	3450 5000 3900 5000
 $Comp
 L power:+5V #PWR?
 U 1 1 6063307B
@@ -2468,4 +2464,8 @@ Wire Wire Line
 Connection ~ 4200 4900
 Wire Wire Line
 	4200 4900 4200 4800
+Wire Wire Line
+	3450 5000 3900 5000
+Wire Wire Line
+	3450 4900 3900 4900
 $EndSCHEMATC
