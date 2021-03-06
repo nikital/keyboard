@@ -1802,24 +1802,12 @@ F 3 "~" H 2150 3250 50  0001 C CNN
 	1    2150 3250
 	-1   0    0    1   
 $EndComp
-$Comp
-L Device:C C1
-U 1 1 605E8000
-P 1100 4800
-F 0 "C1" H 1215 4846 50  0000 L CNN
-F 1 "10u" H 1215 4755 50  0000 L CNN
-F 2 "" H 1138 4650 50  0001 C CNN
-F 3 "~" H 1100 4800 50  0001 C CNN
-	1    1100 4800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2250 4500 1450 4500
 Wire Wire Line
 	1450 4500 1450 4650
 Wire Wire Line
 	1450 4650 1100 4650
-Connection ~ 1100 4650
 $Comp
 L power:GND #PWR0111
 U 1 1 6060BDB0
@@ -2468,4 +2456,16 @@ Wire Wire Line
 	3450 5000 3900 5000
 Wire Wire Line
 	3450 4900 3900 4900
+$Comp
+L Device:CP C1
+U 1 1 6046FDA4
+P 1100 4800
+F 0 "C1" H 1218 4846 50  0000 L CNN
+F 1 "10u" H 1218 4755 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A_Pad1.58x1.35mm_HandSolder" H 1138 4650 50  0001 C CNN
+F 3 "~" H 1100 4800 50  0001 C CNN
+	1    1100 4800
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 4650
 $EndSCHEMATC

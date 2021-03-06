@@ -23,3 +23,8 @@ MF-PSMF020X-2
 
 *** I/O expander
 MCP23018-E/SO
+
+*** Resistors (2012/0805)
+
+*** ESD protection
+PRTR5V0U2X
