@@ -1,4 +1,4 @@
-update=Tue 09 Mar 2021 23:18:21
+update=Sat 13 Mar 2021 19:14:24
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=poc.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -238,7 +238,7 @@ Enabled=0
 [pcbnew/Netclasses]
 [pcbnew/Netclasses/Default]
 Name=Default
-Clearance=0.5
+Clearance=0.25
 TrackWidth=0.25
 ViaDiameter=0.8
 ViaDrill=0.4
@@ -249,7 +249,7 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.5
+Clearance=0.25
 TrackWidth=0.5
 ViaDiameter=0.8
 ViaDrill=0.4

@@ -1014,17 +1014,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 5210 125
 	1    5150 1250
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR027
-U 1 1 606CC318
-P 5150 1750
-F 0 "#PWR027" H 5150 1500 50  0001 C CNN
-F 1 "GND" H 5155 1577 50  0000 C CNN
-F 2 "" H 5150 1750 50  0001 C CNN
-F 3 "" H 5150 1750 50  0001 C CNN
-	1    5150 1750
-	1    0    0    -1  
-$EndComp
 Text Label 4650 1250 2    50   ~ 0
 SCL1
 Text Label 5650 1250 0    50   ~ 0
@@ -1284,17 +1273,6 @@ COL3
 Text Label 8650 4500 0    50   ~ 0
 COL4
 $Comp
-L Connector_Generic:Conn_02x08_Odd_Even J5
-U 1 1 60747A12
-P 5500 5300
-F 0 "J5" H 5550 5725 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 5550 5726 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 5500 5300 50  0001 C CNN
-F 3 "~" H 5500 5300 50  0001 C CNN
-	1    5500 5300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_02x06_Odd_Even J6
 U 1 1 607522E3
 P 9700 5000
@@ -1489,4 +1467,42 @@ Wire Wire Line
 Wire Wire Line
 	10400 3500 10100 3500
 Connection ~ 10100 3500
+$Comp
+L power:GND1 #PWR0101
+U 1 1 604E5D44
+P 5150 1750
+F 0 "#PWR0101" H 5150 1500 50  0001 C CNN
+F 1 "GND1" H 5155 1577 50  0000 C CNN
+F 2 "" H 5150 1750 50  0001 C CNN
+F 3 "" H 5150 1750 50  0001 C CNN
+	1    5150 1750
+	1    0    0    -1  
+$EndComp
+Text Label 5800 5800 0    50   ~ 0
+SCL
+Text Label 5300 5800 2    50   ~ 0
+SDA
+Text Label 5800 5900 0    50   ~ 0
+COL0
+Text Label 5800 6000 0    50   ~ 0
+COL1
+Text Label 5300 5900 2    50   ~ 0
+ROW0
+Text Label 5300 6000 2    50   ~ 0
+ROW1
+$Comp
+L Connector_Generic:Conn_02x11_Odd_Even J5
+U 1 1 604C9372
+P 5500 5500
+F 0 "J5" H 5550 6125 50  0000 C CNN
+F 1 "Conn_02x11_Odd_Even" H 5550 6126 50  0001 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x11_P2.54mm_Vertical" H 5500 5500 50  0001 C CNN
+F 3 "~" H 5500 5500 50  0001 C CNN
+	1    5500 5500
+	1    0    0    -1  
+$EndComp
+Text Label 3000 4000 1    50   ~ 0
+D1+
+Text Label 3000 4100 3    50   ~ 0
+D1-
 $EndSCHEMATC
