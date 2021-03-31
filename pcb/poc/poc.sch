@@ -82,12 +82,12 @@ $EndComp
 $Comp
 L power:+5V #PWR05
 U 1 1 60464C52
-P 1250 2300
-F 0 "#PWR05" H 1250 2150 50  0001 C CNN
-F 1 "+5V" V 1265 2428 50  0000 L CNN
-F 2 "" H 1250 2300 50  0001 C CNN
-F 3 "" H 1250 2300 50  0001 C CNN
-	1    1250 2300
+P 1250 2200
+F 0 "#PWR05" H 1250 2050 50  0001 C CNN
+F 1 "+5V" V 1265 2328 50  0000 L CNN
+F 2 "" H 1250 2200 50  0001 C CNN
+F 3 "" H 1250 2200 50  0001 C CNN
+	1    1250 2200
 	0    1    1    0   
 $EndComp
 $Comp
@@ -104,12 +104,12 @@ $EndComp
 $Comp
 L power:+5VP #PWR06
 U 1 1 60466A48
-P 1450 2750
-F 0 "#PWR06" H 1450 2600 50  0001 C CNN
-F 1 "+5VP" V 1465 2878 50  0000 L CNN
-F 2 "" H 1450 2750 50  0001 C CNN
-F 3 "" H 1450 2750 50  0001 C CNN
-	1    1450 2750
+P 1450 2850
+F 0 "#PWR06" H 1450 2700 50  0001 C CNN
+F 1 "+5VP" V 1465 2978 50  0000 L CNN
+F 2 "" H 1450 2850 50  0001 C CNN
+F 3 "" H 1450 2850 50  0001 C CNN
+	1    1450 2850
 	0    1    1    0   
 $EndComp
 $Comp
@@ -160,9 +160,9 @@ Text Label 4250 4300 0    50   ~ 0
 SDA
 Text Label 1250 2100 0    50   ~ 0
 SCL
-Text Label 1250 2200 0    50   ~ 0
+Text Label 1250 2300 0    50   ~ 0
 SDA
-Text Label 1250 2850 0    50   ~ 0
+Text Label 1250 2750 0    50   ~ 0
 SDA1
 Text Label 1250 2950 0    50   ~ 0
 SCL1
@@ -818,8 +818,6 @@ Text Label 4250 4500 0    50   ~ 0
 COL1
 Text Label 4250 3600 0    50   ~ 0
 PB6
-Text Label 4250 3700 0    50   ~ 0
-PB7
 Text Label 4250 3900 0    50   ~ 0
 PC6
 Text Label 4250 4000 0    50   ~ 0
@@ -872,8 +870,6 @@ Text Label 5800 5100 0    50   ~ 0
 PC7
 Text Label 5800 5000 0    50   ~ 0
 PC6
-Text Label 5300 5200 2    50   ~ 0
-PB7
 Text Label 5300 5100 2    50   ~ 0
 PB6
 $Comp
@@ -999,9 +995,9 @@ F 3 "" H 3750 1750 50  0001 C CNN
 	1    3750 1750
 	1    0    0    -1  
 $EndComp
-Text Label 3250 1250 2    50   ~ 0
-SCL
 Text Label 4250 1250 0    50   ~ 0
+SCL
+Text Label 3250 1250 2    50   ~ 0
 SDA
 $Comp
 L Power_Protection:PRTR5V0U2X D5
@@ -1406,19 +1402,19 @@ $EndComp
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 6079D7CB
-P 1350 2750
-F 0 "#FLG0101" H 1350 2825 50  0001 C CNN
-F 1 "PWR_FLAG" H 1350 2923 50  0001 C CNN
-F 2 "" H 1350 2750 50  0001 C CNN
-F 3 "~" H 1350 2750 50  0001 C CNN
-	1    1350 2750
+P 1350 2850
+F 0 "#FLG0101" H 1350 2925 50  0001 C CNN
+F 1 "PWR_FLAG" H 1350 3023 50  0001 C CNN
+F 2 "" H 1350 2850 50  0001 C CNN
+F 3 "~" H 1350 2850 50  0001 C CNN
+	1    1350 2850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 2750 1350 2750
-Connection ~ 1350 2750
+	1250 2850 1350 2850
+Connection ~ 1350 2850
 Wire Wire Line
-	1350 2750 1450 2750
+	1350 2850 1450 2850
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 607C83E8
@@ -1505,4 +1501,6 @@ Text Label 3000 4000 1    50   ~ 0
 D1+
 Text Label 3000 4100 3    50   ~ 0
 D1-
+NoConn ~ 4250 3700
+NoConn ~ 5300 5200
 $EndSCHEMATC
