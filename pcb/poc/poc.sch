@@ -808,9 +808,9 @@ Wire Wire Line
 Connection ~ 5550 4250
 Wire Wire Line
 	5550 4250 5950 4250
-Text Label 4250 3400 0    50   ~ 0
+Text Label 4250 4700 0    50   ~ 0
 ROW0
-Text Label 4250 3500 0    50   ~ 0
+Text Label 4250 4600 0    50   ~ 0
 ROW1
 Text Label 4250 4400 0    50   ~ 0
 COL0
@@ -822,10 +822,6 @@ Text Label 4250 3900 0    50   ~ 0
 PC6
 Text Label 4250 4000 0    50   ~ 0
 PC7
-Text Label 4250 4600 0    50   ~ 0
-PD4
-Text Label 4250 4700 0    50   ~ 0
-PD5
 Text Label 4250 4800 0    50   ~ 0
 PD6
 Text Label 4250 4900 0    50   ~ 0
@@ -844,34 +840,6 @@ Text Label 4250 5800 0    50   ~ 0
 PF6
 Text Label 4250 5900 0    50   ~ 0
 PF7
-Text Label 5800 5700 0    50   ~ 0
-PF7
-Text Label 5800 5600 0    50   ~ 0
-PF6
-Text Label 5800 5500 0    50   ~ 0
-PF5
-Text Label 5800 5400 0    50   ~ 0
-PF4
-Text Label 5800 5300 0    50   ~ 0
-PF1
-Text Label 5800 5200 0    50   ~ 0
-PF0
-Text Label 5300 5700 2    50   ~ 0
-PE6
-Text Label 5300 5600 2    50   ~ 0
-PD7
-Text Label 5300 5500 2    50   ~ 0
-PD6
-Text Label 5300 5400 2    50   ~ 0
-PD5
-Text Label 5300 5300 2    50   ~ 0
-PD4
-Text Label 5800 5100 0    50   ~ 0
-PC7
-Text Label 5800 5000 0    50   ~ 0
-PC6
-Text Label 5300 5100 2    50   ~ 0
-PB6
 $Comp
 L power:GND #PWR025
 U 1 1 605C7BAB
@@ -1434,19 +1402,14 @@ Wire Wire Line
 $Comp
 L Switch:SW_Push_45deg SW10
 U 1 1 60466D2C
-P 6400 3400
-F 0 "SW10" H 6400 3589 50  0000 C CNN
-F 1 "SW_Push_45deg" H 6400 3590 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 3400 50  0001 C CNN
-F 3 "~" H 6400 3400 50  0001 C CNN
-	1    6400 3400
+P 6400 3950
+F 0 "SW10" H 6400 4139 50  0000 C CNN
+F 1 "SW_Push_45deg" H 6400 4140 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 6400 3950 50  0001 C CNN
+F 3 "~" H 6400 3950 50  0001 C CNN
+	1    6400 3950
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	6150 3300 6500 3300
-Wire Wire Line
-	6300 3500 5950 3500
-Connection ~ 5950 3500
 $Comp
 L Switch:SW_Push_45deg SW11
 U 1 1 6046FE50
@@ -1474,18 +1437,6 @@ F 3 "" H 5150 1750 50  0001 C CNN
 	1    5150 1750
 	1    0    0    -1  
 $EndComp
-Text Label 5800 5800 0    50   ~ 0
-SCL
-Text Label 5300 5800 2    50   ~ 0
-SDA
-Text Label 5800 5900 0    50   ~ 0
-COL0
-Text Label 5800 6000 0    50   ~ 0
-COL1
-Text Label 5300 5900 2    50   ~ 0
-ROW0
-Text Label 5300 6000 2    50   ~ 0
-ROW1
 $Comp
 L Connector_Generic:Conn_02x11_Odd_Even J5
 U 1 1 604C9372
@@ -1502,5 +1453,55 @@ D1+
 Text Label 3000 4100 3    50   ~ 0
 D1-
 NoConn ~ 4250 3700
-NoConn ~ 5300 5200
+Wire Wire Line
+	6500 3850 6150 3850
+Connection ~ 6150 3850
+Wire Wire Line
+	6300 4050 5950 4050
+Connection ~ 5950 4050
+Text Label 4250 3400 0    50   ~ 0
+PB4
+Text Label 4250 3500 0    50   ~ 0
+PB5
+Text Label 5800 5000 0    50   ~ 0
+PE6
+Text Label 5300 5100 2    50   ~ 0
+PF0
+Text Label 5800 5100 0    50   ~ 0
+PF1
+Text Label 5300 5200 2    50   ~ 0
+PF4
+Text Label 5800 5200 0    50   ~ 0
+PF5
+Text Label 5300 5300 2    50   ~ 0
+PF6
+Text Label 5800 5300 0    50   ~ 0
+PF7
+Text Label 5300 5400 2    50   ~ 0
+PC7
+Text Label 5800 5400 0    50   ~ 0
+PC6
+Text Label 5300 5500 2    50   ~ 0
+PB6
+Text Label 5800 5500 0    50   ~ 0
+PB5
+Text Label 5300 5600 2    50   ~ 0
+PB4
+Text Label 5800 5600 0    50   ~ 0
+PD7
+Text Label 5300 5700 2    50   ~ 0
+PD6
+Text Label 5800 5700 0    50   ~ 0
+ROW1
+Text Label 5300 5800 2    50   ~ 0
+ROW0
+Text Label 5800 5800 0    50   ~ 0
+COL1
+Text Label 5300 5900 2    50   ~ 0
+COL0
+Text Label 5800 5900 0    50   ~ 0
+SDA
+Text Label 5300 6000 2    50   ~ 0
+SCL
+NoConn ~ 5800 6000
 $EndSCHEMATC
