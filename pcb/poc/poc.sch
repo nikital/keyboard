@@ -978,10 +978,6 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 5210 125
 	1    5150 1250
 	1    0    0    -1  
 $EndComp
-Text Label 4650 1250 2    50   ~ 0
-SCL1
-Text Label 5650 1250 0    50   ~ 0
-SDA1
 $Comp
 L power:GND1 #PWR033
 U 1 1 606F2DE2
@@ -996,12 +992,12 @@ $EndComp
 $Comp
 L power:+5VP #PWR032
 U 1 1 606F4BB8
-P 7950 3200
-F 0 "#PWR032" H 7950 3050 50  0001 C CNN
-F 1 "+5VP" H 7965 3373 50  0000 C CNN
-F 2 "" H 7950 3200 50  0001 C CNN
-F 3 "" H 7950 3200 50  0001 C CNN
-	1    7950 3200
+P 7950 3000
+F 0 "#PWR032" H 7950 2850 50  0001 C CNN
+F 1 "+5VP" H 7965 3173 50  0000 C CNN
+F 2 "" H 7950 3000 50  0001 C CNN
+F 3 "" H 7950 3000 50  0001 C CNN
+	1    7950 3000
 	1    0    0    -1  
 $EndComp
 NoConn ~ 7250 4000
@@ -1232,9 +1228,9 @@ Text Label 8650 4100 0    50   ~ 0
 ROW2
 Text Label 8650 4200 0    50   ~ 0
 ROW3
-Text Label 8650 4400 0    50   ~ 0
-COL3
 Text Label 8650 4500 0    50   ~ 0
+COL3
+Text Label 8650 4400 0    50   ~ 0
 COL4
 $Comp
 L Connector_Generic:Conn_02x06_Odd_Even J6
@@ -1413,19 +1409,14 @@ $EndComp
 $Comp
 L Switch:SW_Push_45deg SW11
 U 1 1 6046FE50
-P 10500 3400
-F 0 "SW11" H 10500 3589 50  0000 C CNN
-F 1 "SW_Push_45deg" H 10500 3590 50  0001 C CNN
-F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10500 3400 50  0001 C CNN
-F 3 "~" H 10500 3400 50  0001 C CNN
-	1    10500 3400
+P 10500 3950
+F 0 "SW11" H 10500 4139 50  0000 C CNN
+F 1 "SW_Push_45deg" H 10500 4140 50  0001 C CNN
+F 2 "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" H 10500 3950 50  0001 C CNN
+F 3 "~" H 10500 3950 50  0001 C CNN
+	1    10500 3950
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	10600 3300 10300 3300
-Wire Wire Line
-	10400 3500 10100 3500
-Connection ~ 10100 3500
 $Comp
 L power:GND1 #PWR0101
 U 1 1 604E5D44
@@ -1515,4 +1506,41 @@ Text Label 5300 6200 2    50   ~ 0
 SCL
 Text Label 5300 6300 2    50   ~ 0
 SDA
+$Comp
+L Device:C_Small C10
+U 1 1 606987BF
+P 8250 3100
+F 0 "C10" H 8200 3300 50  0000 L CNN
+F 1 "100n" H 8350 3100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8250 3100 50  0001 C CNN
+F 3 "~" H 8250 3100 50  0001 C CNN
+	1    8250 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 3000 7950 3200
+Wire Wire Line
+	8250 3000 7950 3000
+Connection ~ 7950 3000
+$Comp
+L power:GND1 #PWR027
+U 1 1 606AD8E6
+P 8250 3200
+F 0 "#PWR027" H 8250 2950 50  0001 C CNN
+F 1 "GND1" H 8450 3100 50  0000 C CNN
+F 2 "" H 8250 3200 50  0001 C CNN
+F 3 "" H 8250 3200 50  0001 C CNN
+	1    8250 3200
+	1    0    0    -1  
+$EndComp
+Text Label 4650 1250 2    50   ~ 0
+SDA1
+Text Label 5650 1250 0    50   ~ 0
+SCL1
+Wire Wire Line
+	10300 3850 10600 3850
+Connection ~ 10300 3850
+Wire Wire Line
+	10100 4050 10400 4050
+Connection ~ 10100 4050
 $EndSCHEMATC
