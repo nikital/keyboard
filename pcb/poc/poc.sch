@@ -1500,4 +1500,19 @@ COL1
 Text Label 5300 5900 2    50   ~ 0
 COL0
 NoConn ~ 5800 5900
+$Comp
+L Connector_Generic:Conn_01x02 J7
+U 1 1 606762A5
+P 5500 6200
+F 0 "J7" H 5580 6192 50  0000 L CNN
+F 1 "Conn_01x02" H 5580 6101 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 5500 6200 50  0001 C CNN
+F 3 "~" H 5500 6200 50  0001 C CNN
+	1    5500 6200
+	1    0    0    -1  
+$EndComp
+Text Label 5300 6200 2    50   ~ 0
+SCL
+Text Label 5300 6300 2    50   ~ 0
+SDA
 $EndSCHEMATC
