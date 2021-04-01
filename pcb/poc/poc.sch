@@ -1233,12 +1233,12 @@ COL3
 Text Label 8650 4400 0    50   ~ 0
 COL4
 $Comp
-L Connector_Generic:Conn_02x06_Odd_Even J6
+L Connector_Generic:Conn_02x08_Odd_Even J6
 U 1 1 607522E3
 P 9700 5000
 F 0 "J6" H 9750 5417 50  0000 C CNN
-F 1 "Conn_02x06_Odd_Even" H 9750 5326 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical" H 9700 5000 50  0001 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9750 5500 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical" H 9700 5000 50  0001 C CNN
 F 3 "~" H 9700 5000 50  0001 C CNN
 	1    9700 5000
 	1    0    0    -1  
@@ -1246,12 +1246,12 @@ $EndComp
 $Comp
 L power:GND1 #PWR035
 U 1 1 607537E8
-P 9200 4800
-F 0 "#PWR035" H 9200 4550 50  0001 C CNN
-F 1 "GND1" H 9205 4627 50  0000 C CNN
-F 2 "" H 9200 4800 50  0001 C CNN
-F 3 "" H 9200 4800 50  0001 C CNN
-	1    9200 4800
+P 9200 4700
+F 0 "#PWR035" H 9200 4450 50  0001 C CNN
+F 1 "GND1" H 9205 4527 50  0000 C CNN
+F 2 "" H 9200 4700 50  0001 C CNN
+F 3 "" H 9200 4700 50  0001 C CNN
+	1    9200 4700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1290,27 +1290,17 @@ F 3 "" H 9000 3900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 8650 3600 0    50   ~ 0
-GBP1
+GPB1
 Text Label 8650 3700 0    50   ~ 0
-GBP2
+GPB2
 Text Label 8650 3800 0    50   ~ 0
-GBP3
+GPB3
 Text Label 8650 3900 0    50   ~ 0
-GBP4
+GPB4
 Text Label 8650 4000 0    50   ~ 0
-GBP5
-Text Label 9500 4900 2    50   ~ 0
-GBP1
-Text Label 9500 5000 2    50   ~ 0
-GBP2
-Text Label 9500 5100 2    50   ~ 0
-GBP3
-Text Label 9500 5200 2    50   ~ 0
-GBP4
-Text Label 9500 5300 2    50   ~ 0
-GBP5
+GPB5
 Wire Wire Line
-	9200 4800 9500 4800
+	9200 4700 9500 4700
 Text Label 8650 4600 0    50   ~ 0
 GPA2
 Text Label 8650 4700 0    50   ~ 0
@@ -1322,18 +1312,6 @@ GPA5
 Text Label 8650 5000 0    50   ~ 0
 GPA6
 Text Label 8650 5100 0    50   ~ 0
-GPA7
-Text Label 10000 4800 0    50   ~ 0
-GPA2
-Text Label 10000 4900 0    50   ~ 0
-GPA3
-Text Label 10000 5000 0    50   ~ 0
-GPA4
-Text Label 10000 5100 0    50   ~ 0
-GPA5
-Text Label 10000 5200 0    50   ~ 0
-GPA6
-Text Label 10000 5300 0    50   ~ 0
 GPA7
 $Comp
 L power:+5VP #PWR036
@@ -1543,4 +1521,49 @@ Connection ~ 10300 3850
 Wire Wire Line
 	10100 4050 10400 4050
 Connection ~ 10100 4050
+$Comp
+L Connector_Generic:Conn_01x02 J8
+U 1 1 60788374
+P 9750 5700
+F 0 "J8" H 9830 5692 50  0000 L CNN
+F 1 "Conn_01x02" H 9830 5601 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9750 5700 50  0001 C CNN
+F 3 "~" H 9750 5700 50  0001 C CNN
+	1    9750 5700
+	1    0    0    -1  
+$EndComp
+Text Label 9550 5700 2    50   ~ 0
+SCL1
+Text Label 9550 5800 2    50   ~ 0
+SDA1
+Text Label 10000 5400 0    50   ~ 0
+ROW2
+Text Label 9500 5400 2    50   ~ 0
+ROW3
+Text Label 10000 5300 0    50   ~ 0
+COL4
+Text Label 9500 5300 2    50   ~ 0
+COL3
+Text Label 10000 4800 0    50   ~ 0
+GPB1
+Text Label 10000 4900 0    50   ~ 0
+GPB2
+Text Label 10000 5000 0    50   ~ 0
+GPB3
+Text Label 10000 5100 0    50   ~ 0
+GPB4
+Text Label 10000 5200 0    50   ~ 0
+GPB5
+Text Label 10000 4700 0    50   ~ 0
+GPA7
+Text Label 9500 4800 2    50   ~ 0
+GPA6
+Text Label 9500 4900 2    50   ~ 0
+GPA5
+Text Label 9500 5000 2    50   ~ 0
+GPA4
+Text Label 9500 5100 2    50   ~ 0
+GPA3
+Text Label 9500 5200 2    50   ~ 0
+GPA2
 $EndSCHEMATC
