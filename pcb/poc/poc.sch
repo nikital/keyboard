@@ -1224,13 +1224,13 @@ Wire Wire Line
 Connection ~ 9700 4250
 Wire Wire Line
 	9700 4250 10100 4250
-Text Label 8650 4100 0    50   ~ 0
-ROW2
-Text Label 8650 4200 0    50   ~ 0
-ROW3
 Text Label 8650 4500 0    50   ~ 0
-COL3
+ROW2
 Text Label 8650 4400 0    50   ~ 0
+ROW3
+Text Label 8650 4100 0    50   ~ 0
+COL3
+Text Label 8650 4200 0    50   ~ 0
 COL4
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even J6
@@ -1536,13 +1536,13 @@ Text Label 9550 5700 2    50   ~ 0
 SCL1
 Text Label 9550 5800 2    50   ~ 0
 SDA1
-Text Label 10000 5400 0    50   ~ 0
+Text Label 9500 5300 2    50   ~ 0
 ROW2
 Text Label 9500 5400 2    50   ~ 0
 ROW3
-Text Label 10000 5300 0    50   ~ 0
+Text Label 10000 5400 0    50   ~ 0
 COL4
-Text Label 9500 5300 2    50   ~ 0
+Text Label 10000 5300 0    50   ~ 0
 COL3
 Text Label 10000 4800 0    50   ~ 0
 GPB1
