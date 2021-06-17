@@ -1460,13 +1460,13 @@ Text Label 5800 5600 0    50   ~ 0
 PD7
 Text Label 5300 5700 2    50   ~ 0
 PD6
-Text Label 5800 5700 0    50   ~ 0
+Text Label 5250 6800 2    50   ~ 0
 ROW1
-Text Label 5300 5800 2    50   ~ 0
+Text Label 5750 6800 0    50   ~ 0
 ROW0
-Text Label 5800 5800 0    50   ~ 0
+Text Label 5250 6700 2    50   ~ 0
 COL1
-Text Label 5300 5900 2    50   ~ 0
+Text Label 5750 6700 0    50   ~ 0
 COL0
 NoConn ~ 5800 5900
 $Comp
@@ -1566,4 +1566,19 @@ Text Label 9500 5100 2    50   ~ 0
 GPA3
 Text Label 9500 5200 2    50   ~ 0
 GPA2
+$Comp
+L Connector_Generic:Conn_02x02_Odd_Even J9
+U 1 1 60D2E9DB
+P 5450 6700
+F 0 "J9" H 5500 6917 50  0000 C CNN
+F 1 "Conn_02x02_Odd_Even" H 5500 6826 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical" H 5450 6700 50  0001 C CNN
+F 3 "~" H 5450 6700 50  0001 C CNN
+	1    5450 6700
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5300 5900
+NoConn ~ 5300 5800
+NoConn ~ 5800 5800
+NoConn ~ 5800 5700
 $EndSCHEMATC
