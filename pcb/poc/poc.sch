@@ -1406,17 +1406,6 @@ F 3 "" H 5150 1750 50  0001 C CNN
 	1    5150 1750
 	1    0    0    -1  
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x10_Odd_Even J5
-U 1 1 604C9372
-P 5500 5400
-F 0 "J5" H 5550 6025 50  0000 C CNN
-F 1 "Conn_02x10_Odd_Even" H 5550 6026 50  0001 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_2x10_P2.54mm_Vertical" H 5500 5400 50  0001 C CNN
-F 3 "~" H 5500 5400 50  0001 C CNN
-	1    5500 5400
-	1    0    0    -1  
-$EndComp
 Text Label 3000 4000 1    50   ~ 0
 D1+
 Text Label 3000 4100 3    50   ~ 0
@@ -1468,7 +1457,6 @@ Text Label 5250 6700 2    50   ~ 0
 COL1
 Text Label 5750 6700 0    50   ~ 0
 COL0
-NoConn ~ 5800 5900
 $Comp
 L Connector_Generic:Conn_01x02 J7
 U 1 1 606762A5
@@ -1577,8 +1565,16 @@ F 3 "~" H 5450 6700 50  0001 C CNN
 	1    5450 6700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 5300 5900
-NoConn ~ 5300 5800
-NoConn ~ 5800 5800
 NoConn ~ 5800 5700
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even J5
+U 1 1 60D61D34
+P 5500 5300
+F 0 "J5" H 5550 5817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 5550 5726 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_2x08_P2.54mm_Vertical" H 5500 5300 50  0001 C CNN
+F 3 "~" H 5500 5300 50  0001 C CNN
+	1    5500 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
