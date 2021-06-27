@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 48)
+    (drawings 50)
     (tracks 775)
     (zones 0)
     (modules 63)
@@ -3086,6 +3086,12 @@
     )
   )
 
+  (gr_text "27/06/2021 rev1" (at 161 152.5 90) (layer F.SilkS) (tstamp 60D8A8C5)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left))
+  )
+  (gr_text "NikitaL Keyboard PoC" (at 165 152.5 90) (layer F.SilkS) (tstamp 60D8A8CD)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_text COL1 (at 97.5 148.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
