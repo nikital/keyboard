@@ -28,3 +28,17 @@ MCP23018-E/SO
 
 *** ESD protection
 PRTR5V0U2X
+
+* Burn
+Load DFU bootloader. When using Arduino as ISP, first burn an Arduino using the
+ArduinoISP example sketch. Then wire everything according to comments. Make sure
+to use a good 5V source and the the 5V on ICSP (not sure why, but it glitched).
+Then run:
+#+begin_src sh
+avrdude -patmega32u4 -cstk500v1 -P/dev/ttyUSB0 -b19200 -e -U flash:w:dfu/ATMega32U4-usbdevice_dfu-1_0_0.hex:i -U lfuse:w:0b01011110:m -U hfuse:w:0b10011001:m -U efuse:w:0b11000011:m -U lock:w:0b101100:m
+#+end_src
+
+If using a USBasp based programmer, use: =-cusbasp=.
+
+Make sure to issue an ~dfu-programmer atmega32u4 erase --force~ to make sure that the flash
+is writable.
