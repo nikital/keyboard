@@ -1,0 +1,4 @@
+[submodule "fw/qmk_firmware"]
+	path = fw/qmk_firmware
+	url = ../qmk_firmware.git
+	branch = master
