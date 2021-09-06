@@ -1,0 +1,190 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:USB_B_Mini J?
+U 1 1 6159D890
+P 1000 1150
+F 0 "J?" H 1057 1617 50  0000 C CNN
+F 1 "USB_B_Mini" H 1057 1526 50  0000 C CNN
+F 2 "" H 1150 1100 50  0001 C CNN
+F 3 "~" H 1150 1100 50  0001 C CNN
+	1    1000 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	900  1550 1000 1550
+$Comp
+L power:GND #PWR?
+U 1 1 6159E75D
+P 1000 1550
+F 0 "#PWR?" H 1000 1300 50  0001 C CNN
+F 1 "GND" H 1005 1377 50  0000 C CNN
+F 2 "" H 1000 1550 50  0001 C CNN
+F 3 "" H 1000 1550 50  0001 C CNN
+	1    1000 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1000 1550
+NoConn ~ 1300 1350
+$Comp
+L Device:Polyfuse F?
+U 1 1 6159F298
+P 1450 950
+F 0 "F?" V 1225 950 50  0000 C CNN
+F 1 "Polyfuse" V 1316 950 50  0000 C CNN
+F 2 "" H 1500 750 50  0001 L CNN
+F 3 "~" H 1450 950 50  0001 C CNN
+	1    1450 950 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 6159F6E1
+P 2000 950
+F 0 "#PWR?" H 2000 800 50  0001 C CNN
+F 1 "+5V" H 2015 1123 50  0000 C CNN
+F 2 "" H 2000 950 50  0001 C CNN
+F 3 "" H 2000 950 50  0001 C CNN
+	1    2000 950 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 950  1600 950 
+Text Label 1300 1150 0    50   ~ 0
+D+
+Text Label 1300 1250 0    50   ~ 0
+D-
+$Comp
+L Connector:RJ12 J?
+U 1 1 615A0317
+P 900 2300
+F 0 "J?" H 900 2500 50  0000 C CNN
+F 1 "RJ12" H 900 2250 50  0000 C CNN
+F 2 "" V 900 2325 50  0001 C CNN
+F 3 "~" V 900 2325 50  0001 C CNN
+	1    900  2300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1300 2000
+NoConn ~ 1300 2500
+$Comp
+L Connector:AVR-ISP-6 J?
+U 1 1 615A499C
+P 900 3400
+F 0 "J?" H 800 3450 50  0000 R CNN
+F 1 "AVR-ISP-6" H 1400 3000 50  0000 R CNN
+F 2 "" V 650 3450 50  0001 C CNN
+F 3 " ~" H -375 2850 50  0001 C CNN
+	1    900  3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615A5C5B
+P 800 3800
+F 0 "#PWR?" H 800 3550 50  0001 C CNN
+F 1 "GND" H 805 3627 50  0000 C CNN
+F 2 "" H 800 3800 50  0001 C CNN
+F 3 "" H 800 3800 50  0001 C CNN
+	1    800  3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 615A6126
+P 800 2900
+F 0 "#PWR?" H 800 2750 50  0001 C CNN
+F 1 "+5V" H 815 3073 50  0000 C CNN
+F 2 "" H 800 2900 50  0001 C CNN
+F 3 "" H 800 2900 50  0001 C CNN
+	1    800  2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Power_Protection:PRTR5V0U2X D?
+U 1 1 615AA274
+P 2700 1150
+F 0 "D?" H 2850 1350 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 3050 950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2760 1150 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 2760 1150 50  0001 C CNN
+	1    2700 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 615ABEA9
+P 2700 650
+F 0 "#PWR?" H 2700 500 50  0001 C CNN
+F 1 "+5V" V 2700 850 50  0000 C CNN
+F 2 "" H 2700 650 50  0001 C CNN
+F 3 "" H 2700 650 50  0001 C CNN
+	1    2700 650 
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615AC73A
+P 2700 1650
+F 0 "#PWR?" H 2700 1400 50  0001 C CNN
+F 1 "GND" V 2700 1400 50  0000 C CNN
+F 2 "" H 2700 1650 50  0001 C CNN
+F 3 "" H 2700 1650 50  0001 C CNN
+	1    2700 1650
+	0    -1   -1   0   
+$EndComp
+Text Label 2200 1150 2    50   ~ 0
+D+
+Text Label 3200 1150 0    50   ~ 0
+D-
+$Comp
+L Power_Protection:PRTR5V0U2X D?
+U 1 1 615C3E4F
+P 2700 2250
+F 0 "D?" H 2850 2450 50  0000 L CNN
+F 1 "PRTR5V0U2X" H 3050 2050 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-143" H 2760 2250 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PRTR5V0U2X.pdf" H 2760 2250 50  0001 C CNN
+	1    2700 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 615C3FB3
+P 2700 1750
+F 0 "#PWR?" H 2700 1600 50  0001 C CNN
+F 1 "+5V" V 2700 1950 50  0000 C CNN
+F 2 "" H 2700 1750 50  0001 C CNN
+F 3 "" H 2700 1750 50  0001 C CNN
+	1    2700 1750
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 615C3FBD
+P 2700 2750
+F 0 "#PWR?" H 2700 2500 50  0001 C CNN
+F 1 "GND" V 2700 2500 50  0000 C CNN
+F 2 "" H 2700 2750 50  0001 C CNN
+F 3 "" H 2700 2750 50  0001 C CNN
+	1    2700 2750
+	0    -1   -1   0   
+$EndComp
+Text Label 2200 2250 2    50   ~ 0
+SCL
+Text Label 3200 2250 0    50   ~ 0
+SDA
+$EndSCHEMATC
