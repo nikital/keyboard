@@ -2,3 +2,7 @@
 	path = fw/qmk_firmware
 	url = ../qmk_firmware.git
 	branch = master
+[submodule "pcb/keyswitches.pretty"]
+	path = pcb/keyswitches.pretty
+	url = ../keyswitches.pretty.git
+	branch = master
