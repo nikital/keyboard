@@ -2345,4 +2345,15 @@ Text Label 4100 6500 0    50   ~ 0
 ROW1
 Text Label 4100 6600 0    50   ~ 0
 ROW2
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61859E36
+P 8950 4300
+F 0 "H1" H 8900 4150 50  0000 L CNN
+F 1 "MountingHole" H 9050 4255 50  0001 L CNN
+F 2 "keyswitches:Stabilizer_MX_2u" H 8950 4300 50  0001 C CNN
+F 3 "~" H 8950 4300 50  0001 C CNN
+	1    8950 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

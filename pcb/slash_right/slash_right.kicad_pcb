@@ -5,7 +5,7 @@
     (drawings 0)
     (tracks 0)
     (zones 0)
-    (modules 137)
+    (modules 138)
     (nets 98)
   )
 
@@ -292,6 +292,24 @@
     (add_net "Net-(R4-Pad2)")
     (add_net "Net-(R5-Pad1)")
     (add_net "Net-(U1-Pad42)")
+  )
+
+  (module keyswitches:Stabilizer_MX_2u (layer F.Cu) (tedit 5DD5122D) (tstamp 61625E1B)
+    (at 145.25625 119.0625)
+    (descr "MX-style stabilizer mount")
+    (tags MX,cherry,gateron,kailh,pg1511,stabilizer,stab)
+    (path /61859E36)
+    (fp_text reference H1 (at 0 0) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole (at 0 10.16) (layer F.Fab) hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 3 0) (layer Cmts.User) (width 0.15))
+    (pad "" np_thru_hole circle (at -11.9 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 11.9 -6.985) (size 3.048 3.048) (drill 3.048) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at -11.9 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
+    (pad "" np_thru_hole circle (at 11.9 8.255) (size 3.9878 3.9878) (drill 3.9878) (layers *.Cu *.Mask))
   )
 
   (module Crystal:Crystal_HC49-U_Vertical (layer F.Cu) (tedit 5A1AD3B8) (tstamp 61612270)
@@ -1279,8 +1297,8 @@
       (net 58 "Net-(D48-Pad2)"))
   )
 
-  (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 61611FA6)
-    (at 164.30625 100.0125)
+  (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 6162C281)
+    (at 159.54375 100.0125)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /615F93DE)
@@ -1619,8 +1637,8 @@
       (net 53 "Net-(D43-Pad2)"))
   )
 
-  (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 61611EA2)
-    (at 142.875 119.0625)
+  (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 61622AC5)
+    (at 145.25625 119.0625)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
     (path /616829F1)
@@ -1687,7 +1705,7 @@
       (net 52 "Net-(D42-Pad2)"))
   )
 
-  (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 61611E6E)
+  (module keyswitches:Kailh_socket_MX (layer F.Cu) (tedit 5DD4FB17) (tstamp 616170CD)
     (at 133.35 100.0125)
     (descr "MX-style keyswitch with Kailh socket mount")
     (tags MX,cherry,gateron,kailh,pg1511,socket)
