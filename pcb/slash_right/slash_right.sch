@@ -62,7 +62,7 @@ F 3 "" H 2000 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2000 950  1600 950 
+	2000 950  1750 950 
 Text Label 1300 1150 0    50   ~ 0
 D+
 Text Label 1300 1250 0    50   ~ 0
@@ -2356,4 +2356,18 @@ F 3 "~" H 8950 4300 50  0001 C CNN
 	1    8950 4300
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 6193F379
+P 1750 950
+F 0 "#FLG0101" H 1750 1025 50  0001 C CNN
+F 1 "PWR_FLAG" H 1750 1123 50  0000 C CNN
+F 2 "" H 1750 950 50  0001 C CNN
+F 3 "~" H 1750 950 50  0001 C CNN
+	1    1750 950 
+	1    0    0    -1  
+$EndComp
+Connection ~ 1750 950 
+Wire Wire Line
+	1750 950  1600 950 
 $EndSCHEMATC
