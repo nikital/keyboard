@@ -2267,11 +2267,11 @@ Wire Wire Line
 	4100 4000 4550 4000
 Text Label 4100 3700 0    50   ~ 0
 COL0
-Text Label 4100 3800 0    50   ~ 0
+Text Label 4100 6100 0    50   ~ 0
 COL1
-Text Label 4100 3900 0    50   ~ 0
+Text Label 4100 6200 0    50   ~ 0
 COL2
-Text Label 4100 4000 0    50   ~ 0
+Text Label 4100 6300 0    50   ~ 0
 COL3
 Text Label 4100 4100 0    50   ~ 0
 COL4
@@ -2299,12 +2299,6 @@ Text Label 4100 5500 0    50   ~ 0
 COL14
 Text Label 4100 5600 0    50   ~ 0
 COL15
-Text Label 4100 6100 0    50   ~ 0
-COL16
-Text Label 4100 6200 0    50   ~ 0
-COL17
-Text Label 4100 6300 0    50   ~ 0
-COL18
 Connection ~ 10150 4250
 Wire Wire Line
 	10150 4250 10150 4800
@@ -2370,4 +2364,10 @@ $EndComp
 Connection ~ 1750 950 
 Wire Wire Line
 	1750 950  1600 950 
+Text Label 4100 3800 0    50   ~ 0
+COL16
+Text Label 4100 3900 0    50   ~ 0
+COL17
+Text Label 4100 4000 0    50   ~ 0
+COL18
 $EndSCHEMATC
