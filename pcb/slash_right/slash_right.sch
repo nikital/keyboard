@@ -612,39 +612,37 @@ Text Label 1300 3200 0    50   ~ 0
 MISO
 Text Label 1300 3500 0    50   ~ 0
 ~RST
-Wire Wire Line
-	4100 5900 4500 5900
 $Comp
 L Device:R_Small R5
 U 1 1 616328C2
-P 4500 6000
-F 0 "R5" H 4559 6046 50  0000 L CNN
-F 1 "470" H 4559 5955 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 4500 6000 50  0001 C CNN
-F 3 "~" H 4500 6000 50  0001 C CNN
-	1    4500 6000
+P 5200 4500
+F 0 "R5" H 5259 4546 50  0000 L CNN
+F 1 "470" H 5259 4455 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" H 5200 4500 50  0001 C CNN
+F 3 "~" H 5200 4500 50  0001 C CNN
+	1    5200 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED D4
 U 1 1 61633622
-P 4500 6250
-F 0 "D4" V 4493 6132 50  0000 R CNN
-F 1 "LED" V 4448 6132 50  0001 R CNN
-F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4500 6250 50  0001 C CNN
-F 3 "~" H 4500 6250 50  0001 C CNN
-	1    4500 6250
+P 5200 4750
+F 0 "D4" V 5193 4632 50  0000 R CNN
+F 1 "LED" V 5148 4632 50  0001 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5200 4750 50  0001 C CNN
+F 3 "~" H 5200 4750 50  0001 C CNN
+	1    5200 4750
 	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR020
 U 1 1 616340EE
-P 4500 6400
-F 0 "#PWR020" H 4500 6150 50  0001 C CNN
-F 1 "GND" H 4505 6227 50  0000 C CNN
-F 2 "" H 4500 6400 50  0001 C CNN
-F 3 "" H 4500 6400 50  0001 C CNN
-	1    4500 6400
+P 5200 4900
+F 0 "#PWR020" H 5200 4650 50  0001 C CNN
+F 1 "GND" H 5205 4727 50  0000 C CNN
+F 2 "" H 5200 4900 50  0001 C CNN
+F 3 "" H 5200 4900 50  0001 C CNN
+	1    5200 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2265,13 +2263,13 @@ Wire Wire Line
 	4550 3900 4100 3900
 Wire Wire Line
 	4100 4000 4550 4000
-Text Label 4100 3700 0    50   ~ 0
+Text Label 5650 5550 0    50   ~ 0
 COL0
-Text Label 4100 6100 0    50   ~ 0
+Text Label 5650 5750 0    50   ~ 0
 COL1
-Text Label 4100 6200 0    50   ~ 0
+Text Label 5650 5650 0    50   ~ 0
 COL2
-Text Label 4100 6300 0    50   ~ 0
+Text Label 5150 6100 0    50   ~ 0
 COL3
 Text Label 4100 4100 0    50   ~ 0
 COL4
@@ -2279,25 +2277,25 @@ Text Label 4100 4200 0    50   ~ 0
 COL5
 Text Label 4100 4300 0    50   ~ 0
 COL6
-Text Label 4100 4400 0    50   ~ 0
+Text Label 4100 3700 0    50   ~ 0
 COL7
 Text Label 4100 4600 0    50   ~ 0
 COL8
 Text Label 4100 4700 0    50   ~ 0
 COL9
-Text Label 4100 5100 0    50   ~ 0
+Text Label 4100 6600 0    50   ~ 0
 COL10
 Text Label 7450 5500 3    50   ~ 0
 COL11
-Text Label 4100 5200 0    50   ~ 0
+Text Label 4100 6500 0    50   ~ 0
 COL11
-Text Label 4100 5300 0    50   ~ 0
+Text Label 4100 6400 0    50   ~ 0
 COL12
-Text Label 4100 5400 0    50   ~ 0
+Text Label 4100 6300 0    50   ~ 0
 COL13
-Text Label 4100 5500 0    50   ~ 0
+Text Label 4100 6200 0    50   ~ 0
 COL14
-Text Label 4100 5600 0    50   ~ 0
+Text Label 4100 6100 0    50   ~ 0
 COL15
 Connection ~ 10150 4250
 Wire Wire Line
@@ -2333,11 +2331,11 @@ F 3 "~" H 10050 4350 50  0001 C CNN
 	1    10050 4350
 	0    -1   -1   0   
 $EndComp
-Text Label 4100 6400 0    50   ~ 0
+Text Label 4100 5900 0    50   ~ 0
 ROW0
-Text Label 4100 6500 0    50   ~ 0
+Text Label 4850 6050 0    50   ~ 0
 ROW1
-Text Label 4100 6600 0    50   ~ 0
+Text Label 4800 6650 0    50   ~ 0
 ROW2
 $Comp
 L Mechanical:MountingHole H1
@@ -2370,4 +2368,6 @@ Text Label 4100 3900 0    50   ~ 0
 COL17
 Text Label 4100 4000 0    50   ~ 0
 COL18
+Wire Wire Line
+	5200 4400 4100 4400
 $EndSCHEMATC
