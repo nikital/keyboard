@@ -2263,25 +2263,25 @@ Wire Wire Line
 	4550 3900 4100 3900
 Wire Wire Line
 	4100 4000 4550 4000
-Text Label 5650 5550 0    50   ~ 0
+Text Label 4100 5100 0    50   ~ 0
 COL0
-Text Label 5650 5750 0    50   ~ 0
+Text Label 4100 5200 0    50   ~ 0
 COL1
-Text Label 5650 5650 0    50   ~ 0
+Text Label 4100 5400 0    50   ~ 0
 COL2
-Text Label 5150 6100 0    50   ~ 0
+Text Label 4100 5300 0    50   ~ 0
 COL3
-Text Label 4100 4100 0    50   ~ 0
+Text Label 4100 5500 0    50   ~ 0
 COL4
-Text Label 4100 4200 0    50   ~ 0
+Text Label 4100 5600 0    50   ~ 0
 COL5
-Text Label 4100 4300 0    50   ~ 0
+Text Label 4100 4100 0    50   ~ 0
 COL6
-Text Label 4100 3700 0    50   ~ 0
+Text Label 4100 4200 0    50   ~ 0
 COL7
-Text Label 4100 4600 0    50   ~ 0
+Text Label 4100 4300 0    50   ~ 0
 COL8
-Text Label 4100 4700 0    50   ~ 0
+Text Label 4100 4600 0    50   ~ 0
 COL9
 Text Label 4100 6600 0    50   ~ 0
 COL10
@@ -2333,9 +2333,9 @@ F 3 "~" H 10050 4350 50  0001 C CNN
 $EndComp
 Text Label 4100 5900 0    50   ~ 0
 ROW0
-Text Label 4850 6050 0    50   ~ 0
+Text Label 4100 4700 0    50   ~ 0
 ROW1
-Text Label 4800 6650 0    50   ~ 0
+Text Label 4100 3700 0    50   ~ 0
 ROW2
 $Comp
 L Mechanical:MountingHole H1
