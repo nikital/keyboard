@@ -1217,35 +1217,35 @@ F 3 "" H 3150 3100 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3150 3700 2600 3700
-Text Label 2600 4000 0    50   ~ 0
-ROW0
-Text Label 2600 4100 0    50   ~ 0
-ROW1
-Text Label 2600 4200 0    50   ~ 0
-ROW2
-Text Label 2600 4300 0    50   ~ 0
-COL0
-Text Label 2600 4400 0    50   ~ 0
-COL1
-Text Label 2600 4500 0    50   ~ 0
-COL2
-Text Label 2600 4600 0    50   ~ 0
-COL3
 Text Label 2600 3000 0    50   ~ 0
-COL4
+ROW0
 Text Label 2600 3100 0    50   ~ 0
-COL5
+ROW1
 Text Label 2600 3200 0    50   ~ 0
-COL6
+ROW2
 Text Label 2600 3300 0    50   ~ 0
-COL7
+COL0
 Text Label 2600 3400 0    50   ~ 0
-COL8
+COL1
 Text Label 2600 3500 0    50   ~ 0
-COL9
+COL2
 Text Label 2600 3600 0    50   ~ 0
-COL10
+COL3
+Text Label 2600 4600 0    50   ~ 0
+COL4
 Text Label 2600 3900 0    50   ~ 0
+COL5
+Text Label 2600 4500 0    50   ~ 0
+COL6
+Text Label 2600 4400 0    50   ~ 0
+COL7
+Text Label 2600 4300 0    50   ~ 0
+COL8
+Text Label 2600 4200 0    50   ~ 0
+COL9
+Text Label 2600 4100 0    50   ~ 0
+COL10
+Text Label 2600 4000 0    50   ~ 0
 COL11
 Wire Wire Line
 	5900 3650 5900 4900
