@@ -31,9 +31,9 @@ $EXTMIN
   9
 $EXTMAX
  10
-376.519
+372.519
  20
-132.971
+128.971
  30
 0
   9
@@ -91,7 +91,7 @@ STANDARD
   9
 $CLAYER
   8
-connectors
+PCB
   9
 $CELTYPE
   6
@@ -1115,9 +1115,9 @@ AcDbViewportTableRecord
  21
 1
  12
-220.5379166667404
+235.8477777778613
  22
-87.30416666669583
+79.33291666669477
  13
 0
  23
@@ -1143,7 +1143,7 @@ AcDbViewportTableRecord
  37
 0
  40
-227.7500000000761
+227.7500000000807
  41
 1.63
  42
@@ -2235,7 +2235,7 @@ AcDbLayerTableRecord
   2
 0
  70
-    0
+    4
  62
     7
   6
@@ -2257,7 +2257,7 @@ AcDbLayerTableRecord
   2
 Frame
  70
-    1
+    5
  62
     7
   6
@@ -2279,7 +2279,7 @@ AcDbLayerTableRecord
   2
 Holes
  70
-    0
+    4
  62
     7
   6
@@ -2323,7 +2323,7 @@ AcDbLayerTableRecord
   2
 Spacer
  70
-    0
+    4
  62
     4
   6
@@ -2345,7 +2345,7 @@ AcDbLayerTableRecord
   2
 connectors
  70
-    0
+    4
  62
     3
   6
@@ -2376,10 +2376,6 @@ DASHEDTINY
     0
 390
 F
-1001
-LibreCad
-1070
-    1
   0
 ENDTAB
   0
@@ -10449,6 +10445,176 @@ AcDbCircle
  40
 4
   0
+LWPOLYLINE
+  5
+192
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbPolyline
+ 90
+    4
+ 70
+    1
+ 43
+0
+ 10
+350.419
+ 20
+30.90865
+ 10
+359.819
+ 20
+30.90865
+ 10
+359.819
+ 20
+38.40865
+ 10
+350.419
+ 20
+38.40865
+  0
+LINE
+  5
+193
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+307.15900001376
+ 20
+40.75864994773682
+ 11
+314.5590000137599
+ 21
+40.75864994773682
+  0
+LINE
+  5
+194
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbLine
+ 10
+307.15900001376
+ 20
+46.15864994773682
+ 11
+314.5590000137599
+ 21
+46.15864994773682
+  0
+ARC
+  5
+195
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+307.15900001376
+ 20
+43.45864994773682
+ 40
+2.7
+100
+AcDbArc
+ 50
+90
+ 51
+270
+  0
+ARC
+  5
+196
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+307.15900001376
+ 20
+40.75864994773682
+ 40
+0
+100
+AcDbArc
+ 50
+0
+ 51
+0
+  0
+ARC
+  5
+197
+100
+AcDbEntity
+  8
+PCB
+  6
+ByLayer
+ 62
+  256
+370
+   -1
+100
+AcDbCircle
+ 10
+314.5590000137599
+ 20
+43.45864994773682
+ 40
+2.7
+100
+AcDbArc
+ 50
+270
+ 51
+89.99999999999999
+  0
 ENDSEC
   0
 SECTION
@@ -10481,7 +10647,7 @@ AcDbDictionary
   0
 PLOTSETTINGS
   5
-192
+198
 100
 AcDbPlotSettings
   6
