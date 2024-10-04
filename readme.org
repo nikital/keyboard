@@ -39,6 +39,9 @@ avrdude -patmega32u4 -cstk500v1 -P/dev/ttyUSB0 -b19200 -e -U flash:w:dfu/ATMega3
 #+end_src
 
 If using a USBasp based programmer, use: =-cusbasp=.
+#+begin_src sh
+avrdude -patmega32u4 -cusbasp -e -U flash:w:dfu/ATMega32U4-usbdevice_dfu-1_0_0.hex:i -U lfuse:w:0b01011110:m -U hfuse:w:0b10011001:m -U efuse:w:0b11000011:m -U lock:w:0b101100:m
+#+end_src
 
 Make sure to issue an ~dfu-programmer atmega32u4 erase --force~ to make sure that the flash
 is writable.
